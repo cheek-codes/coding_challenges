@@ -19,3 +19,11 @@ function capitalizeWord(word) {
 function capitalizeWord(word) {
     return word.charAt(0).toUpperCase()+word.slice(1).toLowerCase()
 }
+
+
+
+function capitalizeWord(word) {
+    let first = word.charAt(0).toUpperCase()
+    let others = word.slice(1).toLowerCase()
+    return first+others
+}
