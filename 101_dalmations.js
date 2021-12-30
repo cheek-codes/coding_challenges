@@ -71,7 +71,7 @@ const howManyDalmatians = number =>
 
 
 
-let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+let dog = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
 howManyDalmatians = number => {
 switch (true) {
     case number <= 10:
@@ -90,7 +90,7 @@ switch (true) {
 
 
 
-const dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+const dogss = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
 const howManyDalmatians = (n) => {
   return n <= 10   ? dogs[0]
        : n <= 50   ? dogs[1]
