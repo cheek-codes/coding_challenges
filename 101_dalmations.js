@@ -113,3 +113,16 @@ function howManyDalmatians(number) {
 
 
 howManyDalmatians = n => n <= 10 ? "Hardly any" : n <= 50 ? "More than a handful!" : n == 101 ? "101 DALMATIANS!!!" : "Woah that's a lot of dogs!"
+
+
+
+
+function howManyDalmatians(number) {
+    const dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+    switch (true) {
+        case number < 11: return dogs[0];
+        case number < 51: return dogs[1];
+        case number < 101: return dogs[2];
+        default: return dogs[3];
+    }
+}
