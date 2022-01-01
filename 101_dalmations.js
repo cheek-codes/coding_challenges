@@ -108,3 +108,8 @@ function howManyDalmatians(number) {
     
   return respond;
 }
+
+
+
+
+howManyDalmatians = n => n <= 10 ? "Hardly any" : n <= 50 ? "More than a handful!" : n == 101 ? "101 DALMATIANS!!!" : "Woah that's a lot of dogs!"
