@@ -67,3 +67,22 @@ function howManyDalmatians (number) {
 
 const howManyDalmatians = number =>
   number <= 10 ? `Hardly any` : number <= 50 ? `More than a handful!` : number === 101 ? `101 DALMATIANS!!!` : `Woah that's a lot of dogs!`;
+
+
+
+
+let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+howManyDalmatians = number => {
+switch (true) {
+    case number <= 10:
+    return dogs[0];
+    case number <= 50:
+    return dogs[1];
+    case number <= 100:
+    return dogs[2];
+    case number === 101:
+    return dogs[3];  
+    default:
+    return ``;  
+}
+}
