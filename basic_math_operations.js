@@ -78,3 +78,7 @@ function basicOp(operation, value1, value2)
 
 
 basicOp = (operation, value1, value2) => eval( `${value1} ${operation} ${value2}` )
+
+
+
+let basicOp = (operation, value1, value2) => eval(value1 + operation + value2);
