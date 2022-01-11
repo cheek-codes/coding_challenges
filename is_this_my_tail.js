@@ -59,3 +59,7 @@ let correctTail = (body, tail) => body.substr(body.length - (tail.length)) === t
 function correctTail(bod, tail){
     return bod[bod.length-1] === tail
 }
+
+
+
+const correctTail = (x, y) => x.endsWith(y)
