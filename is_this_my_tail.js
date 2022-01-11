@@ -63,3 +63,9 @@ function correctTail(bod, tail){
 
 
 const correctTail = (x, y) => x.endsWith(y)
+
+
+
+function correctTail(body, tail){
+    return (tail === body.charAt(body.length -1))? true: false
+}
