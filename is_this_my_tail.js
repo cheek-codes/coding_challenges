@@ -53,3 +53,9 @@ function correctTail(body, tail){
 
 
 let correctTail = (body, tail) => body.substr(body.length - (tail.length)) === tail ? true: false
+
+
+
+function correctTail(bod, tail){
+    return bod[bod.length-1] === tail
+}
