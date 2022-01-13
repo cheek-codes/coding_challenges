@@ -23,3 +23,8 @@ function correctTail(bod, tail ;
 
 
 // P: Will we be given floats? wWill we be given integers? Will we be given special characters? Will we be given strings? Will we be given empty strings?
+
+
+
+// R: Return true if the argument(tail) is the same letter as the last letter of the argument(body)
+// R: Return false if the argument(tail) is a different letter as the last letter of the argument(body)
