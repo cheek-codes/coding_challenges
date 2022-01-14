@@ -5,3 +5,21 @@
 // If the tail is right return true, else return false.
 
 // The arguments will always be non empty strings, and normal letters.
+
+
+
+/*
+function correctTail(bod, tail ;
+  
+  sub = body.substr(bodylength-(tail.length)
+  
+  if sub = tail) ;
+    return true
+  }
+  else 
+    return false
+*/
+
+
+
+// P: Will we be given floats? wWill we be given integers? Will we be given special characters? Will we be given strings? Will we be given empty strings?
