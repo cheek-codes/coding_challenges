@@ -63,3 +63,9 @@ function arrayPlusArray(...arrays){
 
 
 const arrayPlusArray = (arr1, arr2) => [...arr1, ...arr2].reduce((a, b) => a + b, 0)
+
+
+
+function arrayPlusArray(arr1, arr2){
+    return arr1.reduce((sum, cur) => sum + cur) + arr2.reduce((sum, cur) => sum + cur)
+}
