@@ -143,3 +143,7 @@ function getPlanetName(id){
 function getPlanetName(i){
     return (['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'])[i-1];
 }
+
+
+
+const getPlanetName = id => ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'][id-1];
