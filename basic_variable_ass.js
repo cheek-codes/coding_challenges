@@ -13,3 +13,9 @@ var name == a + b;
 var a = "code";
 var b = "wa.rs";
 var name = a + b;
+
+
+
+var a = "code",
+    b = "wa.rs",
+    name = a + b;
