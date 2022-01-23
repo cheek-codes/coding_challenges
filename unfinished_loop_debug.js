@@ -14,3 +14,8 @@
 
 
 // P: Will we be given an empty string? Will we be given strings? Will we be given special charaters? Will we be given floats? Will we be given integers?
+
+
+
+
+// R: Return a new string where the infinite loop is fixed
