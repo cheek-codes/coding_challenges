@@ -43,3 +43,8 @@ const createArray = n => Array(...Array(n)).map((v, i) => i + 1);
 function createArray(number){
     return Array.from({length:number},(v,i)=>i+1)
 }
+
+
+
+const createArray = number =>
+  [...Array(number)].map((_, idx) => ++idx);
