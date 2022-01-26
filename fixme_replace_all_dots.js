@@ -74,3 +74,7 @@ const replaceDots = $ => $.replace(/\./g, '-');
 var replaceDots = function(str) {
     return str.split("").map(char => char === '.' ? '-' : char).join("")
 }
+
+
+
+replaceDots = x => x.replace(/[.]/g, '-')
