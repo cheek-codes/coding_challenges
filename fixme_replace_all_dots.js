@@ -53,3 +53,13 @@ var replaceDots = s=>s.split('.').join('-')
 
 
 const replaceDots = (str) => str.replace(/\./g, '-');
+
+
+
+var replaceDots = function(str) {
+    let answer = "";
+    for (let i = 0; i < str.length; i++) {
+      answer += (str[i] !== ".") ? str[i] : "-";
+    }
+    return answer;
+}
