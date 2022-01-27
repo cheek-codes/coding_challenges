@@ -63,3 +63,7 @@ var replaceDots = function(str) {
     }
     return answer;
 }
+
+
+
+const replaceDots = $ => $.replace(/\./g, '-');
