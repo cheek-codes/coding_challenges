@@ -11,3 +11,14 @@
 
 
 // R: Return a new string where if a digit is less than 5, it will be replaced with 0, while if a dig is greater than or equal to 5, it will be replaced with 1
+
+
+
+// E: 1. If we were given "45385593107843568", should return "01011110001100111"
+// E: 2. If we were given "366058562030849490134388085", should return "011011110000101010000011011"
+
+
+
+function fakeBin(x){
+    return x.split("").map(x => x < 5 ? 0 : 1).join("")
+}
