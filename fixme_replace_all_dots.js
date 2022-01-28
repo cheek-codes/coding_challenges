@@ -48,3 +48,8 @@ var replaceDots = function(str) {
 
 
 var replaceDots = s=>s.split('.').join('-')
+
+
+
+
+const replaceDots = (str) => str.replace(/\./g, '-');
