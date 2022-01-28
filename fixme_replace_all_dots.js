@@ -44,3 +44,7 @@ var replaceDots = function(str) {
 var replaceDots = function(str) {
     return str.replace(/[.]/g, '-');
 }
+
+
+
+var replaceDots = s=>s.split('.').join('-')
