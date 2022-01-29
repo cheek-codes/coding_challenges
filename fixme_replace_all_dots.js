@@ -30,3 +30,9 @@ var replaceDots = function(str) {
 // E: 2. If we are given "no dots", should return "no dots"
 // E: 3. If we are given "201.398.0281", should return "201-398-0281"
 // E: 4. If we are given "...", should return "---"
+
+
+
+var replaceDots = function(str) {
+    return str.replace(/\./g, '-');
+}
