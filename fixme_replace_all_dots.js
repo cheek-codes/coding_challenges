@@ -19,3 +19,7 @@ var replaceDots = function(str) {
 
 
 // P: Will we be given empty strings? will we be given strings? Will we be given floats? Will we be given integers? Will we be given special characters?
+
+
+
+// R: Return a new string where all the "." will be replaced with "-"
