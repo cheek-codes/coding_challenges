@@ -23,3 +23,10 @@ var replaceDots = function(str) {
 
 
 // R: Return a new string where all the "." will be replaced with "-"
+
+
+
+// E: 1. If we are given "", should return ""
+// E: 2. If we are given "no dots", should return "no dots"
+// E: 3. If we are given "201.398.0281", should return "201-398-0281"
+// E: 4. If we are given "...", should return "---"
