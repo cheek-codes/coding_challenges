@@ -61,3 +61,7 @@ function greet(name){
     else
       return "Hello, " + name + "!";
 }
+
+
+
+let greet = name => `Hello, ${name === "Johnny" ? "my love" : name}!`
