@@ -27,3 +27,14 @@ function greet(name){
 // E: 2. If we are given a name of "Sally", should return "Hello, Sally!"
 // E: 3. If we are given a name of "Chris", should return "Hello, Chris!"
 // E: 4. If we are given a name of "Johnny", should return "Hello, my love!"
+
+
+
+
+function greet(name){
+    if(name === "Johnny")
+      return "Hello, my love!";
+    else {
+      return "Hello, " + name + "!";
+    }
+}
