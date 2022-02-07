@@ -45,3 +45,7 @@ function main(verb, noun) {
 main = function(verb, noun) {
     return verb + noun;
 }
+
+
+
+let main=(...a)=>a.join('');
