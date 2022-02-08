@@ -21,3 +21,9 @@ function main [verb, noun]
 
 // E: 1. If we are given a verb of "take" and a noun of "item", should return "take item"
 // E: 2. If we are given a verb of "use" and a noun of "sword", should return "used sword"
+
+
+
+function main (verb, noun){
+    return verb + noun
+}
