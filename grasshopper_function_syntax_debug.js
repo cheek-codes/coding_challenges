@@ -16,3 +16,8 @@ function main [verb, noun]
 
 
 // R: Return a concatinated string with the given verb and noun
+
+
+
+// E: 1. If we are given a verb of "take" and a noun of "item", should return "take item"
+// E: 2. If we are given a verb of "use" and a noun of "sword", should return "used sword"
