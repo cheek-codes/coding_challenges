@@ -12,3 +12,7 @@ function main [verb, noun]
 
 
 // P: Will we be given floats? Will we be given integers? Will we be given special characters? Will we be given empty strings? Will we be given uppercase letters? Will we be given lower case letters?
+
+
+
+// R: Return a concatinated string with the given verb and noun
