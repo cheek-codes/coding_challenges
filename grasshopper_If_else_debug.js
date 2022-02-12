@@ -61,3 +61,7 @@ const checkAlive = (health) => health > 0
 function checkAlive (health) {
     return health > 0 ? true : false;
 }
+
+
+
+const checkAlive = h => h > 0;
