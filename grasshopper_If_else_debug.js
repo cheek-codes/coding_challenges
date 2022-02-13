@@ -50,3 +50,7 @@ function checkAlive (health) {
 function checkAlive(health) {
     return health > 0;
 }
+
+
+
+const checkAlive = (health) => health > 0
