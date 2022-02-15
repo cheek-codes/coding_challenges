@@ -97,3 +97,8 @@ function multiply(number){
     let numStr = number.toString().replace("-", "");
     return number* Math.pow(5,numStr.length)
 }
+
+
+
+
+multiply=number=>number * 5 ** String(Math.abs(number)).length
