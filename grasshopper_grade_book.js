@@ -71,3 +71,15 @@ function getGrade (s1, s2, s3) {
     var s = (s1 + s2 + s3) / 3
     return s >= 90 ? "A" : s >= 80 ? "B" : s >= 70 ? "C" : s >= 60 ? "D" : "F"
 }
+
+
+
+function getGrade(...scores) {
+    let average = scores.reduce((a, b) => a + b) / scores.length
+    
+    if (average >= 90) return 'A'
+    else if (average >= 80) return 'B'
+    else if (average >= 70) return 'C'
+    else if (average >= 60) return 'D'
+    else return 'F'
+}
