@@ -30,3 +30,26 @@
 // E: 3. If we are given 72, should return "C"
 // E: 4. If we are given 69, should return "D"
 // E: 5. If we are given 10, should return "F" 
+
+
+
+function getGrade (s1, s2, s3) {
+    // Code here
+    let avg = (s1 + s2 + s3)/3
+    
+    if (avg >= 90 && avg <= 100){
+      return "A"
+    }
+    else if (avg >= 80 && avg < 90){
+      return "B"
+    }
+    else if (avg >= 70 && avg < 80){
+      return "C"
+    }
+    else if (avg >= 60 && avg < 70){
+      return "D"
+    }
+    else if (avg >= 0 && avg < 60){
+      return "F"
+    }
+}
