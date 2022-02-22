@@ -67,3 +67,7 @@ function greet (name, owner) {
     
     return greetings[name === owner]
 }
+
+
+
+greet = (name, owner) => `Hello ${name==owner?'boss':'guest'}`
