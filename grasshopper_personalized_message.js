@@ -56,3 +56,14 @@ function greet (name, owner) {
 
 
 const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
+
+
+
+function greet (name, owner) {
+    const greetings = {
+      [true] :'Hello boss',
+      [false]:'Hello guest',
+    }
+    
+    return greetings[name === owner]
+}
