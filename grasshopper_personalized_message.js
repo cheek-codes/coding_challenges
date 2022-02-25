@@ -25,3 +25,14 @@
 // E: 2. If we are given a name of "Samuel", and owner of "James", should return "Hello guest"
 // E: 3. If we are given a name of "Watermelon-Andrea", and owner of "Watermelon-Andrea", should return "Hello boss"
 // E: 4. If we are given a name of "Christopher", and owner of "James", should return "Hello guest"
+
+
+
+function greet (name, owner) {
+    // Add code here
+    if(name === owner){
+      return "Hello boss"
+    }else {
+      return "Hello guest"
+    }
+}
