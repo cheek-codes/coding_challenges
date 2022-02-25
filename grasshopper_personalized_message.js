@@ -18,3 +18,10 @@
 
 // R: Return "Hello boss" if [name] === [owner]
 // R: Return "Hello guest" if [name] != [owner]
+
+
+
+// E: 1. If we are given a name of "Daniel", and owner of "Daniel", should return "Hello boss"
+// E: 2. If we are given a name of "Samuel", and owner of "James", should return "Hello guest"
+// E: 3. If we are given a name of "Watermelon-Andrea", and owner of "Watermelon-Andrea", should return "Hello boss"
+// E: 4. If we are given a name of "Christopher", and owner of "James", should return "Hello guest"
