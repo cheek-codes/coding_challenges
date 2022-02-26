@@ -8,3 +8,8 @@
 // case --> return
 // name equals owner --> 'Hello boss'
 // otherwise --> 'Hello guest'
+
+
+
+
+// P: Will we be given floats? Will we be given integers? Will we be given special characters? Will we be given strings? Will we be given empty strings?
