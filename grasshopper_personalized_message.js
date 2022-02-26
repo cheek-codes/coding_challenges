@@ -13,3 +13,8 @@
 
 
 // P: Will we be given floats? Will we be given integers? Will we be given special characters? Will we be given strings? Will we be given empty strings?
+
+
+
+// R: Return "Hello boss" if [name] === [owner]
+// R: Return "Hello guest" if [name] != [owner]
