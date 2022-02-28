@@ -95,3 +95,10 @@ function weatherInfo(t) {
     var c = (t - 32) * (5 / 9);
     return c <= 0 ? c + " is freezing temperature" : c + " is above freezing temperature";
 }
+
+
+
+const weatherInfo = (temp, celsius = convertToCelsius(temp)) =>
+  `${celsius} is ${celsius > 0 ? 'above ' : ''}freezing temperature`;
+
+const convertToCelsius = (temp) => (temp - 32) * (5 / 9);
