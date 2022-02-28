@@ -88,3 +88,10 @@ function weatherInfo(t) {
   function convertToCelsius(t) {
     return (t - 32) * (5 / 9)
 }
+
+
+
+function weatherInfo(t) {
+    var c = (t - 32) * (5 / 9);
+    return c <= 0 ? c + " is freezing temperature" : c + " is above freezing temperature";
+}
