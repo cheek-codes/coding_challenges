@@ -77,3 +77,14 @@ const weatherInfo = temperature => temperatureMesage(convertToCelsius(temperatur
 const convertToCelsius = temperature => (temperature - 32) * (5 / 9);
 
 const temperatureMesage = temperature => temperature + ((temperature <= 0) ? " is freezing temperature" : " is above freezing temperature")
+
+
+
+function weatherInfo(t) {
+    var c = convertToCelsius(t)
+    return c > 0 ? `${c} is above freezing temperature` : `${c} is freezing temperature`
+}
+  
+  function convertToCelsius(t) {
+    return (t - 32) * (5 / 9)
+}
