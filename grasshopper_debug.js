@@ -67,3 +67,13 @@ function weatherInfo (temp) {
 
 
 const weatherInfo = t => `${t = (t - 32) * (5 / 9)} is ${t > 0 ? 'above ': ''}freezing temperature`;
+
+
+
+
+
+const weatherInfo = temperature => temperatureMesage(convertToCelsius(temperature));
+
+const convertToCelsius = temperature => (temperature - 32) * (5 / 9);
+
+const temperatureMesage = temperature => temperature + ((temperature <= 0) ? " is freezing temperature" : " is above freezing temperature")
