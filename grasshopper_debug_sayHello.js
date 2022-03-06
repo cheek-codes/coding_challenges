@@ -20,3 +20,9 @@
 // E: 2. If we are given a name of "Captain Kirk", should return "Hello, Captain Kirk"
 // E: 3. If we are given a name of "Liutenant Uhura", should return "Hello, Liutenant Uhura"
 // E: 4. If we are given a name of "Dr. McCoy", should return "Hello, Dr. McCoy"
+
+
+
+function sayHello(name) {
+    return `Hello, ${name}`
+}
