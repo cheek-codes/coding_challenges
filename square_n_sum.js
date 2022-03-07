@@ -55,3 +55,7 @@ function squareSum(numbers){
     });
     return sum;
 }
+
+
+
+const squareSum = number => numbers.reduce((a, b) => a+b**2, 0)
