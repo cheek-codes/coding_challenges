@@ -45,3 +45,13 @@ function squareSum(number){
 function squareSum(number){
     return numbers.reduce((sum, num) => sum + (num*num), 0)
 }
+
+
+
+function squareSum(numbers){
+    var sum = 0;
+    numbers.forEach(function(n) {
+      sum += n * n
+    });
+    return sum;
+}
