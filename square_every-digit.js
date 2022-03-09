@@ -101,3 +101,7 @@ function squareDigits(num){
 
 
 const squareDigits = (num) => Number((num + '').split("").map(c => c *c).join(""));
+
+
+
+squareDigits = n => Number(n.toString().split('').map(e => e * e).join(''));
