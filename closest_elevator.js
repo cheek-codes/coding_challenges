@@ -74,3 +74,10 @@ function elevator(left, right, call){
 
 
 const elevator = (left, right, call) => Math.abs(call-left) < Math.abs (call-right) ? "left" : "right"
+
+
+
+
+function elevator(left, right, call) {
+    return Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right';
+}
