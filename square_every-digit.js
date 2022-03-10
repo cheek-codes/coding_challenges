@@ -91,3 +91,9 @@ function squareDigits(num){
      
     return parseInt(result)
 }
+
+
+
+function squareDigits(num){
+    return +String(num).split('').map(function(num){return +num * +num;}).join('');
+}
