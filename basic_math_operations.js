@@ -18,3 +18,10 @@
 
 
 // R: With the given 2 sets of numbers and an operation sign, return a new number where the math is done with the given information
+
+
+
+// E: 1. If we are given an operation of "+", a value1 of 4, and value2 of 7, should return 11
+// E: 2. If we are given an operation of "-", a value1 of 15, and value2 of 18, should return -3
+// E: 3. If we are given an operation of "*", a value1 of 5, and value2 of 5, should return 25
+// E: 4. If we are given an operation of "/", a value1 of 49, and value2 of 7, should return 7
