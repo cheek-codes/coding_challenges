@@ -35,3 +35,36 @@
 // E: 3. If we were given elevator(0, 1, 2), should return "right"
 // E: 4. If we were given elevator(0, 0, 0), should return "right"
 // E: 5. If we were given elevator(0, 2, 1), should return "right"
+
+
+
+function elevator(left, right, call){
+
+    if (call === 0 && left === 0 && right != 0){
+      return "left"
+    }
+    else if (call === 1 && left === 1 && right != 1){
+      return "left"
+    }
+    else if (call === 2 && left === 2 && right != 2){
+      return "left"
+    }
+    else if (call === 0 && left === 1 && right === 2){
+      return "left"
+    }
+    else if (call === 2 && left === 1 && right === 0){
+      return "left"
+    }
+    else if (call === 0 && right === 0 && left != 0){
+      return "right"
+    }
+    else if (call === 1 && right === 1 && left != 1){
+      return "right"
+    }
+    else if (call === 2 && right === 2 && left != 2){
+      return "right"
+    }
+    else {
+      return "right"
+    }
+}
