@@ -44,3 +44,11 @@ const capitalizeWord = (word) => word.replace(word.charAt(0), word.charAt(0).toU
 
 
 const capitalizeWord = word => word[0].toUpperCase()+word.slice(1);
+
+
+
+
+function capitalizeWord(word) {
+    const first = word[0].toUpperCase()
+    return first + word.slice(1)
+}
