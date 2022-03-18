@@ -62,3 +62,9 @@ function getAge(inputString){
       return res[i] != NaN ? +res[i] : '';
     }
 }
+
+
+
+function getAge(inputString){
+    return Number(inputString.split(' ').find(el => el != NaN));
+}
