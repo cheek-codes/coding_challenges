@@ -68,3 +68,10 @@ function getAge(inputString){
 function getAge(inputString){
     return Number(inputString.split(' ').find(el => el != NaN));
 }
+
+
+
+function getAge(inputString){
+    const input = inputString.split(' ')
+    return parseInt(input[0]);
+}
