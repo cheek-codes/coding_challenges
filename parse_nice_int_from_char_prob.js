@@ -49,3 +49,7 @@ function getAge(inputString){
 
 
 const getAge = parseInt
+
+
+
+const getAge = s => +s[0];
