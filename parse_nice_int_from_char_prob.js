@@ -53,3 +53,12 @@ const getAge = parseInt
 
 
 const getAge = s => +s[0];
+
+
+
+function getAge(inputString){
+    let res = inputString.split(' ');
+    for (let i in res) {
+      return res[i] != NaN ? +res[i] : '';
+    }
+}
