@@ -45,3 +45,7 @@ function getAge(inputString){
 function getAge(inputString){
     return +inputString[0];
 }
+
+
+
+const getAge = parseInt
