@@ -27,3 +27,9 @@ function getAge(inputString){
     // using parseInt() to change string to integer of the first character by using .charAt()
     return parseInt(inputString.charAt(0))
 }
+
+
+
+function getAge(inputString){
+    return parseInt(inputString);
+}
