@@ -13,3 +13,10 @@
 
 
 // R: Return the first character in the string as an integer
+
+
+
+// E: 1. If we are given "1 year old", should return 1
+// E: 2. If we are given "5 years old", should return 5
+// E: 3. If we are given "8 years old", should return 8
+// E: 4. If we are given "9 years old", should return 9
