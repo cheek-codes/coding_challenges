@@ -20,3 +20,10 @@
 // E: 2. If we are given "5 years old", should return 5
 // E: 3. If we are given "8 years old", should return 8
 // E: 4. If we are given "9 years old", should return 9
+
+
+
+function getAge(inputString){
+    // using parseInt() to change string to integer of the first character by using .charAt()
+    return parseInt(inputString.charAt(0))
+}
