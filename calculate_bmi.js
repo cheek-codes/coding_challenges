@@ -114,3 +114,10 @@ function bmi(weight, height) {
         return "Obese";
      }
 }
+
+
+
+function bmi(weight, height) {
+    const $ = weight / height**2;
+    return $ <= 18.5 ? 'Underweight' : $ <= 25.0 ? 'Normal' : $ <= 30.0 ? 'Overweight' : 'Obese';
+}
