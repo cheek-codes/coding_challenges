@@ -121,3 +121,9 @@ function bmi(weight, height) {
     const $ = weight / height**2;
     return $ <= 18.5 ? 'Underweight' : $ <= 25.0 ? 'Normal' : $ <= 30.0 ? 'Overweight' : 'Obese';
 }
+
+
+
+const bmi = (weight, height) =>
+  (val => val <= 18.5 ? `Underweight` : val <= 25 ? `Normal` : val <= 30 ? `Overweight` : `Obese`)
+  (weight / height ** 2);
