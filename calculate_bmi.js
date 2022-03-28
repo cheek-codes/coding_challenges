@@ -31,7 +31,10 @@
 
 
 function bmi(weight, height) {
+    // create a new variable called math to do some math using the formula that was given to calculate the bmi
     let math = (weight/(height**2))
+
+    // create if else statements to check the bmis
     if (math <= 18.5) {
       return "Underweight"
     }
