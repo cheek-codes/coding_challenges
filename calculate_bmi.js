@@ -27,3 +27,21 @@
 // E: 2. If we are given a bmi of 22, should return "Normal"
 // E: 3. If we are given a bmi of 29, should return "Overweight"
 // E: 4. If we are given a bmi of 33, should return "Obese"
+
+
+
+function bmi(weight, height) {
+    let math = (weight/(height**2))
+    if (math <= 18.5) {
+      return "Underweight"
+    }
+    else if (math <= 25.0) {
+      return "Normal"
+      }
+    else if (math <= 30.0) {
+      return "Overweight"
+    }
+    else{
+      return "Obese"
+    }
+}
