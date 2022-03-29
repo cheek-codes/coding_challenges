@@ -20,3 +20,10 @@
 // R: Return "Normal" if bmi <= 25.0
 // R: Return "Overweight" if bmi <= 30.0
 // R: Return "Obese" if bmi > 30
+
+
+
+// E: 1. If we are given a bmi of 12, should return "Underweight"
+// E: 2. If we are given a bmi of 22, should return "Normal"
+// E: 3. If we are given a bmi of 29, should return "Overweight"
+// E: 4. If we are given a bmi of 33, should return "Obese"
