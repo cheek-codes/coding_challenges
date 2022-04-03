@@ -5,4 +5,11 @@
 // Write a program where Alex can input(n) how many times the hoop goes round and it will return him an encouraging message :)
 
 // If Alex gets 10 or more hoops, return the string "Great, now move on to tricks"
-// If he doesn't get 10 hoops, return the string "Keep at it unti lyou get it"
+// If he doesn't get 10 hoops, return the string "Keep at it until you get it"
+
+
+
+// P: Will we be given strings? Will we be given ekmpty strings? Will we be given special characters? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers?
+
+
+
