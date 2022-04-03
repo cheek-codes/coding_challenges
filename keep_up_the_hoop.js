@@ -13,3 +13,5 @@
 
 
 
+// R: Return "Great, now move on to tricks" if Alex was able to make 10 or more hoops
+// R: Return "Keep at it unitl you get it" if Alex makes less than 10 hoops
