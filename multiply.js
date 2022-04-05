@@ -13,3 +13,13 @@
 
 
 // E: just fix the damn code
+
+
+
+// given:
+/*
+function multiply (a, b){
+    a*b
+}
+*/
+
