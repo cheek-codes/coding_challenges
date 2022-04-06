@@ -28,3 +28,9 @@ function multiply (a, b){
 function multiply(a, b){
     return a * b
 }
+
+
+
+multiply = function (a, b) {
+    return a * b;
+}
