@@ -55,3 +55,7 @@ const multiply = (a, b) => a * b;
 
 
 const multiply = (...arg) => arg.reduce((num, arr) => arr * num)
+
+
+
+const multiply = Math.imul 
