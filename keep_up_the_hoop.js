@@ -15,3 +15,10 @@
 
 // R: Return "Great, now move on to tricks" if Alex was able to make 10 or more hoops
 // R: Return "Keep at it unitl you get it" if Alex makes less than 10 hoops
+
+
+
+// E: 1. If we are given 10, should return "Great, now move on to tricks"
+// E: 2. If we are given 20, should return "Great, now move on to tricks"
+// E: 3. If we are given 1, should return "Keep at it unitl you get it"
+// E: 4. If we are given 9, should return "Keep at it unitl you get it"
