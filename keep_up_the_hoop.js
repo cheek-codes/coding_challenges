@@ -22,3 +22,19 @@
 // E: 2. If we are given 20, should return "Great, now move on to tricks"
 // E: 3. If we are given 1, should return "Keep at it unitl you get it"
 // E: 4. If we are given 9, should return "Keep at it unitl you get it"
+
+
+
+function hoopCount (n) {
+    // create an if else statement   
+   if (n >= 10){
+     return "Great, now move on to tricks"
+   }
+   else {
+     return "Keep at it until you get it"
+   }
+}
+
+
+
+const hoopCount = n => n>=10? "Great, now move on to tricks" : "Keep at it until you get it"
