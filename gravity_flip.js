@@ -37,3 +37,9 @@
 // E: 2. If we are given "R", and [1, 4, 5, 3, 5 ], should return [5, 5, 4, 3, 1]
 // E: 3. If we are given "R", and [1, 4, 5, 3, 5 ], should return [1, 3, 4, 5, 5]
 // E: 4. If we are given "L", and [3, 2, 1, 2], should return [3, 2, 2, 1]
+
+
+
+const flip=(d, a)=>{
+    return a.sort((a, b) => d === "R" ? a-b : b-a)
+}
