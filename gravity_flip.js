@@ -54,3 +54,9 @@ const flip=(d, a)=>{
 
 
 const flip = (d, a) => a.sort((x, y) => d === 'R' ? x - y : y - x);
+
+
+
+const flip = (direction, arr) => {
+    return arr.sort((a, b) => direction === 'R' ? a - b : b - a);
+}
