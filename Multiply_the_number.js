@@ -71,3 +71,10 @@ function multiply(number){
       return number * (5**num)
     }
 } 
+
+
+
+
+function multiply(number) {
+    return number * Math.pow(5, Math.abs(number).toString().length);
+}
