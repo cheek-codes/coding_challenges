@@ -53,5 +53,8 @@ const powersOfTwo = n => Array(n + 1).fill(2).map((e, i) => e**i )
 
 
 
-const powersOfTwo = n =>
-  [...Array(++n)].map((_, idx) => 2 ** idx);
+const powersOfTwo = n => [...Array(++n)].map((_, idx) => 2 ** idx);
+
+
+
+let powersOfTwo = n => n ? [...powersOfTwo(n-1), 2**n] : [1]
