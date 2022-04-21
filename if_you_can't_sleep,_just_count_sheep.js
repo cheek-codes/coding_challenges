@@ -12,3 +12,8 @@
 
 
 // R: Return a new string where it will be counting the number of sheeps that was given
+
+
+
+// E: 1. If we are given 3, should return "1 sheep...2 sheep...3 sheep..."
+// E: 2. If we are given 2, should return "1 sheep...2 sheep..."
