@@ -19,3 +19,7 @@ var name = a + b;
 var a = "code",
     b = "wa.rs",
     name = a + b;
+
+
+
+let name = 'codewa.rs';
