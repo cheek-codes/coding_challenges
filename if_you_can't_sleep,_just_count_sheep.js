@@ -30,3 +30,7 @@ var countSheep = function (num){
     // return the new string
     return str;
 }
+
+
+
+const countSheep = length => Array.from({ length }, (_, i) => ++i + ' sheep...').join('')
