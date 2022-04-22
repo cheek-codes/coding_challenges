@@ -17,3 +17,16 @@
 
 // E: 1. If we are given 3, should return "1 sheep...2 sheep...3 sheep..."
 // E: 2. If we are given 2, should return "1 sheep...2 sheep..."
+
+
+
+var countSheep = function (num){
+    // create a new variable that holds an empty string
+    let str = "";
+
+    // create a for loop to loop through the number that was given so it will print the loops. add the loops to a string using template literals
+    for(let i = 1; i <= num; i++) { str+= `${i} sheep...`; }
+
+    // return the new string
+    return str;
+}
