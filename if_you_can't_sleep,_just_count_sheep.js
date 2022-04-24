@@ -44,3 +44,7 @@ countSheep=n=>[...Array(n).keys()].map(x=>`${x+1} sheep...`).join``
 var countSheep = function (n){
     return [...Array(n)].map((_,i)=>i+1+' sheep...').join``
 }
+
+
+
+const countSheep = num => [...Array(num)].map((_, i) => `${i + 1} sheep...`).join('');
