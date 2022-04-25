@@ -70,3 +70,14 @@ function sameCase(a, b){
 
 
 sameCase = (a,b) => /[a-z]/i.test(a) && /[a-z]/i.test(b) ? Number(/[a-z]/.test(a) == /[a-z]/.test(b)) : -1
+
+
+
+function sameCase(a, b){
+    // Am regex fiend, but trying to force myself not to use it
+    // If a character is not a letter then the cases will match each other
+    if (a.toLowerCase() === a.toUpperCase() || b.toLowerCase() === b.toUpperCase()) {
+      return -1;
+    }
+    return (a.toLowerCase() === a) === (b.toLowerCase() === b) ? 1 : 0;
+}
