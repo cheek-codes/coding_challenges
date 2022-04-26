@@ -90,3 +90,11 @@ const isLetter = s => /[a-zA-Z]/.test(s)
 const sameCase = (a, b) => isLetter(a) && isLetter(b) 
   ? isLower(a) === isLower(b) ? 1 : 0
   : -1
+
+
+
+const sameCase = (a, b) => /[^a-z]/i.test(a + b) ? -1 : a === a.toLowerCase() ^ b === b.toUpperCase();
+
+
+
+sameCase=(a,b)=>/^[A-Za-z]+$/g.test(a+b)?a<{}==b<{}?1:0:-1
