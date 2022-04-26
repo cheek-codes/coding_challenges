@@ -15,4 +15,12 @@
 
 
 
-// R: Return a new number that was raised by 5 to the number of digits of each number
+// R: Return a new number that was raised by 5 to the number of digits of each number times the number given
+
+
+
+// E: 1. If we are given 3, should return 15 because 3 * 5^1
+// E: 2. If we are given 10, should return 250 because 10 * 5^2
+// E: 3. If we are given 200, should return 25000 because 200 * 5^3
+// E: 4. If we are given 0, should return 0 because 0 * 5^1
+// E: 5. If we are given -3, should return -15 because -3 * 5^1
