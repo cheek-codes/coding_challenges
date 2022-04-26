@@ -81,3 +81,12 @@ function sameCase(a, b){
     }
     return (a.toLowerCase() === a) === (b.toLowerCase() === b) ? 1 : 0;
 }
+
+
+
+const isLower = s => /[a-z]/.test(s)
+const isLetter = s => /[a-zA-Z]/.test(s)
+
+const sameCase = (a, b) => isLetter(a) && isLetter(b) 
+  ? isLower(a) === isLower(b) ? 1 : 0
+  : -1
