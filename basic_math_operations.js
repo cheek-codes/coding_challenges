@@ -57,8 +57,9 @@ function basicOp(operation, value1, value2){
 
 
 
-function basicOp(o, a, b) {
-    return eval(a+o+b);
+function basicOp(operation, value1, value2)
+{
+  return eval(value1 + operation + value2);
 }
 
 
@@ -73,3 +74,7 @@ function basicOp(operation, value1, value2)
   };
   return cases[operation]
 }
+
+
+
+basicOp = (operation, value1, value2) => eval( `${value1} ${operation} ${value2}` )
