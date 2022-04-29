@@ -10,3 +10,7 @@
 
 
 // P: Will we be given strings? Will we be given an empty string? Will we be given an array? Will we be given an empty array? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers?
+
+
+
+// R: Return an array of all the powers of 2 with the exponent ranging from 0 to the given number
