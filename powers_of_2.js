@@ -20,3 +20,13 @@
 // E: 1. If we are given 0, should return [2^0]
 // E: 2. If we are given 1, should return [2^0, 2 ^1]
 // E: 3. If we are given 2, should return [2^0, 2 ^1, 2^2]
+
+
+
+function powersOfTwo(n){
+    var result = [];
+    for (var i = 0; i <= n; i++) {
+      result.push(Math.pow(2, i));
+    }
+    return result;
+}
