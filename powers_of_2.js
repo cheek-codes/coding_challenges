@@ -14,3 +14,9 @@
 
 
 // R: Return an array of all the powers of 2 with the exponent ranging from 0 to the given number
+
+
+
+// E: 1. If we are given 0, should return [2^0]
+// E: 2. If we are given 1, should return [2^0, 2 ^1]
+// E: 3. If we are given 2, should return [2^0, 2 ^1, 2^2]
