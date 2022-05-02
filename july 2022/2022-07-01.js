@@ -21,3 +21,19 @@
 // E: "0"
 // E: new Boolean
 // E: new Number
+
+
+
+const a = [];
+function assertEquals(a){
+
+  if(a == false){
+  return true;
+  }; 
+  if(!a == false){
+  return true;
+  }; 
+  if(a == false) {
+  return true;
+  }; 
+}
