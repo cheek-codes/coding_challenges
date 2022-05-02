@@ -37,3 +37,7 @@ function assertEquals(a){
   return true;
   }; 
 }
+
+
+
+const a = []
