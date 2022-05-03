@@ -41,3 +41,7 @@ function assertEquals(a){
 
 
 const a = []
+
+
+
+const a = [null]
