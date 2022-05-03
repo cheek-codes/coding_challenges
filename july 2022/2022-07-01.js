@@ -45,3 +45,7 @@ const a = []
 
 
 const a = [null]
+
+
+
+const a = '0'
