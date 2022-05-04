@@ -49,3 +49,7 @@ const a = [null]
 
 
 const a = '0'
+
+
+
+const a = new Boolean()
