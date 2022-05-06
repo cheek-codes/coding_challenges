@@ -8,3 +8,7 @@
 
 
 
+// R: Return a square of the argument that was given
+
+
+
