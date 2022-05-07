@@ -12,3 +12,7 @@
 
 
 
+// E: 1. If we were given 2, should return 4
+// E: 2. If we were given 4, should return 16
+// E: 3. If we were given 1, should return 1
+// E: 4. If we were given 10, should return 100
