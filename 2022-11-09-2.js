@@ -23,3 +23,9 @@ function square(n){
     // lets do some maths
     return n ** 2
 }
+
+
+
+var square = function(a){
+    return a*a;
+}
