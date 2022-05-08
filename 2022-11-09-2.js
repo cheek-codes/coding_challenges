@@ -29,3 +29,7 @@ function square(n){
 var square = function(a){
     return a*a;
 }
+
+
+
+const square = (n) => n * n;
