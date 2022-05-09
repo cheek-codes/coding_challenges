@@ -33,3 +33,10 @@ var square = function(a){
 
 
 const square = (n) => n * n;
+
+
+
+function square(num){
+    var num = Math.pow(num, 2);
+    return num;
+};
