@@ -20,3 +20,10 @@
 // E: 2. If we are given 0 and 188, should return 0
 // E: 3. If we are given 85 and 144, should return 12240
 // E: 4. If we are given -1 and 8893, should return -8893
+
+
+
+
+function multiply(a, b){
+    return a*b
+}
