@@ -34,3 +34,7 @@ function multiply(a, b){
     if(typeof a == 'number' && typeof b == 'number')
       return a * b;  
 }
+
+
+
+let multiply = (a, b) => a * b
