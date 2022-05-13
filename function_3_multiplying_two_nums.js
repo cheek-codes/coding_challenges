@@ -38,3 +38,7 @@ function multiply(a, b){
 
 
 let multiply = (a, b) => a * b
+
+
+
+const multiply = (a, b) => a * b
