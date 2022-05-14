@@ -31,3 +31,15 @@
 // E: 3. If we are given "b" and "G", return 0
 // E: 4. If we are given "B" and "g", return 0
 // E: 5. If we are given "0" and "?", return -1
+
+
+
+function sameCase(a, b){
+    if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
+       return -1
+     }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+         return 1
+     }else{
+       return 0
+     }
+}
