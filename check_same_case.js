@@ -23,3 +23,11 @@
 // R: Return -1 if either of the characters is not a letter
 // R: Return 1 if both characters are the same case
 // R: Return 0 if both characters are letters
+
+
+
+// E: 1. If we are given "a" and "g", return 1
+// E: 2. If we are given "A" and "C", return 1
+// E: 3. If we are given "b" and "G", return 0
+// E: 4. If we are given "B" and "g", return 0
+// E: 5. If we are given "0" and "?", return -1
