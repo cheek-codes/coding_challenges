@@ -13,3 +13,11 @@
 
 
 // R:  Return a falsie
+
+
+
+// E: []
+// E: [null]
+// E: "0"
+// E: new Boolean
+// E: new Number
