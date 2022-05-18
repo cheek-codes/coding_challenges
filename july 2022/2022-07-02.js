@@ -112,3 +112,9 @@ const quarterOf = (month) => {
 
 
 quarterOf=(m)=>Math.ceil(m/3)
+
+
+
+const quarterOf = function (month) {
+    return Math.ceil(month/3)
+}
