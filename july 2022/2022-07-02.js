@@ -14,3 +14,18 @@
 // R: Return 2 if the given month is Apr, May, June
 // R: Return 3 if the given month is July, Aug, Sept
 // R: Return 4 if the given month is Oct, Nov, Dec
+
+
+
+// E: 1. If we are given month 1, should return 1
+// E: 2. If we are given month 2, should return 1
+// E: 3. If we are given month 3, should return 1
+// E: 4. If we are given month 4, should return 2
+// E: 5. If we are given month 5, should return 2
+// E: 6. If we are given month 6, should return 2
+// E: 7. If we are given month 7, should return 3
+// E: 8. If we are given month 8, should return 3
+// E: 9. If we are given month 9, should return 3
+// E: 10. If we are given month 10, should return 4
+// E: 11. If we are given month 11, should return 4
+// E: 12. If we are given month 12, should return 4
