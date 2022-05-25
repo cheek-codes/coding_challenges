@@ -30,3 +30,9 @@ function twiceAsOld(dadYearsOld, sonYearsOld){
     let dad = dadYearsOld - son
     return Math.abs(dad)
 }
+
+
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
