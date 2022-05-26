@@ -21,3 +21,12 @@
 // E: 3. If we are given 42 for the father, and 21 for the son, should return 0
 // E: 4. If we are given 22 for the father, and 1 for the son, should return 20
 // E: 5. If we are given 29 for the father, and 0 for the son, should return 29
+
+
+
+function twiceAsOld(dadYearsOld, sonYearsOld){
+    // let's do some maths
+    let son = sonYearsOld * 2
+    let dad = dadYearsOld - son
+    return Math.abs(dad)
+}
