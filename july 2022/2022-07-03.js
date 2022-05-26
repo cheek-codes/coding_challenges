@@ -12,7 +12,12 @@
 
 
 
-// Return an integer where the father was twice as old as the son or will be twice as old as the son
+// R: Return an integer where the father was twice as old as the son or will be twice as old as the son
 
 
 
+// E: 1. If we are given 36 for the father and 7 for the son, should return 22
+// E: 2. If we are given 55 for the father and 30 for the son, should return 5
+// E: 3. If we are given 42 for the father, and 21 for the son, should return 0
+// E: 4. If we are given 22 for the father, and 1 for the son, should return 20
+// E: 5. If we are given 29 for the father, and 0 for the son, should return 29
