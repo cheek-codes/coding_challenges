@@ -48,3 +48,7 @@ function reverseList(list) {
     }
     return array;
 }
+
+
+
+const reverseList = list => list.reverse();
