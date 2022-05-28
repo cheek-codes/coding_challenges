@@ -52,3 +52,7 @@ function reverseList(list) {
 
 
 const reverseList = list => list.reverse();
+
+
+
+reverseList = a => a.reverse();
