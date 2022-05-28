@@ -25,3 +25,17 @@
 // E: 2. If we are given an operation of "-", a value1 of 15, and value2 of 18, should return -3
 // E: 3. If we are given an operation of "*", a value1 of 5, and value2 of 5, should return 25
 // E: 4. If we are given an operation of "/", a value1 of 49, and value2 of 7, should return 7
+
+
+
+function basicOp(operation, value1, value2){
+    if (operation === "+"){
+      return (value1 + value2)
+    }else if (operation === "-"){
+      return (value1 - value2)
+    }else if (operation === "*"){
+      return (value1 * value2)
+    }else if (operation === "/"){
+      return (value1 / value2)
+    }
+}
