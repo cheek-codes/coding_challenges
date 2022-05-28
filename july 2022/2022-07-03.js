@@ -12,4 +12,7 @@
 
 
 
-// Return an integer where the fater was twice as old as the son
+// Return an integer where the father was twice as old as the son or will be twice as old as the son
+
+
+
