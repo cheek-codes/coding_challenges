@@ -20,3 +20,9 @@
 // E: 2. If we are given [9, 2, 0, 7], should return [7, 0, 2, 9]
 // E: 3. If we are given [-9, -22, 0, 7], should return [7, 0, -2, -9]
 // E: 4. If we are given [1, -2, 3, -4], should return [-4, 3, -2, 1]
+
+
+
+function reverseList(list){
+    return (list.reverse())
+}
