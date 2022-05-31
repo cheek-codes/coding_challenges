@@ -13,3 +13,6 @@
 
 
 
+// E: 1. If we were given 2, should return 4
+// E: 2. If we were given -2, should return 4
+// E: 3. If we were given 10, should return 20
