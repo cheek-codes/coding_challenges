@@ -17,3 +17,4 @@
 
 
 
+// R: Return the minimum and maximum of a given array.
