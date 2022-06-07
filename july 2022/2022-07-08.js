@@ -18,3 +18,10 @@
 
 
 // R: Return the minimum and maximum of a given array.
+
+
+
+// E: 1. If we are given an array of [4,6,2,1,9,63,-134,566], should return as max = 566, min = -134
+// E. 2. If we are given an array of [-52, 56, 30, 29, -54, 0, -110], should return as min = -110, max = 56
+// E. 3. If we are given an array of [42, 54, 65, 87, 0], should return as min = 0, max = 87
+// E: 4. If we are given an array of [5], should return as min = 5, max = 5
