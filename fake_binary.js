@@ -36,3 +36,13 @@ function fakeBin(x){
     }
     return result;
 }
+
+
+
+fakeBin = x => x.split("").map(x => x < 5 ? 0 : 1).join("")
+
+
+
+function fakeBin(x){
+    return x.replace(/[1234]/g, '0').replace(/[56789]/g, '1')
+}
