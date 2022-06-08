@@ -25,3 +25,15 @@
 // E. 2. If we are given an array of [-52, 56, 30, 29, -54, 0, -110], should return as min = -110, max = 56
 // E. 3. If we are given an array of [42, 54, 65, 87, 0], should return as min = 0, max = 87
 // E: 4. If we are given an array of [5], should return as min = 5, max = 5
+
+
+
+var min = function(list){
+    list.sort((a, b) => (a - b));
+    return list[0];
+}
+
+var max = function(list){
+    list.sort((a, b) => (b - a));
+    return list[0];
+}
