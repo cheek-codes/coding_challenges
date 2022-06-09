@@ -60,3 +60,22 @@ var max = function(list){
     
     return Math.max(...list)
 }
+
+
+
+
+var min = function(list){
+    let res = list[0];
+       for(let i = 1; i < list.length; i++){
+       if(list[i] < res){res = list[i]; }
+       }
+      return res;
+}
+    
+var max = function(list){
+    let res = list[0];
+    for(let i = 1; i < list.length; i++){
+    if(list[i] > res){res = list[i]; }
+    }
+    return res;
+}
