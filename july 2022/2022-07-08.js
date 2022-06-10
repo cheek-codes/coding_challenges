@@ -86,3 +86,9 @@ var max = function(list){
 const min = list => list.sort((a, b) => a - b)[0];
 
 const max = list => list.sort((a, b) => b - a)[0];
+
+
+
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
