@@ -98,3 +98,9 @@ const max = (list) => Math.max(...list);
 
 var min = list => Math.min(...list),
     max = list => Math.max(...list);
+
+
+
+
+min = list => Math.min(...list)
+max = list => Math.max(...list)
