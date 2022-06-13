@@ -11,3 +11,10 @@
 
 
 // R: Return a digit that was converted form a string.
+
+
+
+// E: 1. If we are given "1234", should return 1234
+// E: 2. If we are given "605", should return 605
+// E: 3. If we are given "-1234", should return -1234
+// E: 4. If we are given "-605", should return -605
