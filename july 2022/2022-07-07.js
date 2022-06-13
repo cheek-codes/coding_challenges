@@ -18,3 +18,9 @@
 // E: 2. If we are given "605", should return 605
 // E: 3. If we are given "-1234", should return -1234
 // E: 4. If we are given "-605", should return -605
+
+
+
+var stringToNumber = function(str){
+    return Number(str);
+}
