@@ -30,3 +30,7 @@ var stringToNumber = function(str){
 var stringToNumber = function(str){
     return parseInt(str);
 }
+
+
+
+const stringToNumber = str => Number(str)
