@@ -24,3 +24,9 @@
 var stringToNumber = function(str){
     return Number(str);
 }
+
+
+
+var stringToNumber = function(str){
+    return parseInt(str);
+}
