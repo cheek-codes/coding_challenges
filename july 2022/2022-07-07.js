@@ -40,3 +40,7 @@ const stringToNumber = str => Number(str)
 var stringToNumber = function(str){
     return +str;
 }
+
+
+
+var stringToNumber = Number;
