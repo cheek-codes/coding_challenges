@@ -44,3 +44,7 @@ var stringToNumber = function(str){
 
 
 var stringToNumber = Number;
+
+
+
+const stringToNumber = s => parseInt(s);
