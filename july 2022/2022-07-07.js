@@ -48,3 +48,7 @@ var stringToNumber = Number;
 
 
 const stringToNumber = s => parseInt(s);
+
+
+
+const stringToNumber = (str) => +str
