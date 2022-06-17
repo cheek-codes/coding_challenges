@@ -56,3 +56,7 @@ const stringToNumber = (str) => +str
 
 
 const stringToNumber = Number
+
+
+
+stringToNumber = parseInt;
