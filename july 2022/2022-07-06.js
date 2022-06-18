@@ -16,3 +16,7 @@
 
 
 // P: Will we be given a float? Will we be given an integer? Will we be given special characters? Will we be given a string? Will we be given an empty string?
+
+
+
+// R: Return a new string where the given string that has a number added together. 
