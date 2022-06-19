@@ -20,3 +20,12 @@
 
 
 // R: Return a new string where the given string that has a number added together. 
+
+
+
+// E: 1. If we are given "4", "5", should return "9"
+// E: 2. If we are given "34", "5", should return "39"
+// E: 3. If we are given "", "", should return "0"
+// E: 4. If we are given "2", "", should return "2"
+// E: 5. If we are given "-5", "3", should return "-2"
+// E: 6. If we are given "-5", "-5", should return "-10"
