@@ -88,3 +88,12 @@ const multiply = num => num * 5 ** (Math.abs(num).toString()).length
 
 
 const multiply = number => number * Math.pow(5, (Math.abs(number) + "").length);
+
+
+
+
+function multiply(number){
+    //your code here
+    let numStr = number.toString().replace("-", "");
+    return number* Math.pow(5,numStr.length)
+}
