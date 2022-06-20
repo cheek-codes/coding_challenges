@@ -29,3 +29,10 @@
 // E: 4. If we are given "2", "", should return "2"
 // E: 5. If we are given "-5", "3", should return "-2"
 // E: 6. If we are given "-5", "-5", should return "-10"
+
+
+
+function sumStr(a,b) {
+    let sum = Number(a) + Number(b)
+    return sum.toString()
+}
