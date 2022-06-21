@@ -33,6 +33,15 @@
 
 
 function sumStr(a,b) {
+    const num1 = Number(a);
+    const num2 = Number(b);
+    return String(num1 + num2)
+}
+
+
+
+
+function sumStr(a,b) {
     let sum = Number(a) + Number(b)
     return sum.toString()
 }
@@ -48,3 +57,6 @@ function sumStr(a,b) {
 function sumStr(a,b) {
     return (+a+ +b)+''  
 }
+
+
+
