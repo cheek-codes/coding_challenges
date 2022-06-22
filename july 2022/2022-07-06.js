@@ -60,3 +60,4 @@ function sumStr(a,b) {
 
 
 
+sumStr = (a,b) => String(+a + +b);
