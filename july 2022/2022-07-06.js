@@ -61,3 +61,7 @@ function sumStr(a,b) {
 
 
 sumStr = (a,b) => String(+a + +b);
+
+
+
+const sumStr = (a,b) => String(Number(a)+Number(b))
