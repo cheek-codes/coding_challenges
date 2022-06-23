@@ -69,3 +69,7 @@ const sumStr = (a,b) => String(Number(a)+Number(b))
 
 
 const sumStr = (a, b) => (Number(a) + Number(b)).toString(); 
+
+
+
+sumStr = (a,b) => `${+a+(+b)}`;
