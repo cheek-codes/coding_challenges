@@ -16,3 +16,10 @@
 // E: 1. If we were given 2, should return 4
 // E: 2. If we were given -2, should return 4
 // E: 3. If we were given 10, should return 20
+
+
+
+function doubleInteger(i) {
+    // i will be an integer. Double it and return it.
+    return i * 2;
+}
