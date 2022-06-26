@@ -44,3 +44,10 @@ const doubleInteger = i => 1 * 2
 function doubleInteger(i) {
     return i << 1;
 }
+
+
+
+function doubleInteger(i) {
+    // i will be an integer. Double it and return it.
+    return parseInt(i) * 2;
+}
