@@ -38,3 +38,9 @@ function doubleInteger(i) {
 
 
 const doubleInteger = i => 1 * 2
+
+
+
+function doubleInteger(i) {
+    return i << 1;
+}
