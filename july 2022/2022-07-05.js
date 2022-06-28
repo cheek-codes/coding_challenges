@@ -22,3 +22,9 @@
 // E: 2. If we were given 14, should return -14
 // E: 3. If we were given -29, should return 29
 // E: 4. If we were given -7, should return 7
+
+
+
+function opposit(number){
+    return number * (-1)
+}
