@@ -35,3 +35,7 @@ const args_count = (...args) => args.length
 function args_count(...args){
     return args.length
 }
+
+
+
+const args_count = (...number) => number.length
