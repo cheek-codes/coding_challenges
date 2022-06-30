@@ -34,3 +34,7 @@ function opposite(number){
 function opposite(number) {
     return(-number);
 }
+
+
+
+const opposite = number => -number;
