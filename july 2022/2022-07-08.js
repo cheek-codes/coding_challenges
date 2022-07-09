@@ -13,7 +13,3 @@
 
 
 
-// P: Will there be strings? Will there be special characters? Will there be an array? Will there be an empty array? Will there be floats? Will there be integers? Will there be negative numbers/ Will there be positive numbers?
-
-
-
