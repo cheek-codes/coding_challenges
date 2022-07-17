@@ -57,3 +57,17 @@ function multiply(number){
       return number * (5**num)
     }
 }  
+
+
+
+
+function multiply(number){
+    let num = number.toString().length
+    if (number < 0){
+      num = num -1
+      return number * (5**num)
+    }
+    else{
+      return number * (5**num)
+    }
+}
