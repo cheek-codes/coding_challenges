@@ -70,4 +70,4 @@ function multiply(number){
     else{
       return number * (5**num)
     }
-}
+} 
