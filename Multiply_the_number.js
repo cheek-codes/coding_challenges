@@ -78,3 +78,8 @@ function multiply(number){
 function multiply(number) {
     return number * Math.pow(5, Math.abs(number).toString().length);
 }
+
+
+
+
+const multiply = num => num * 5 ** (Math.abs(num).toString()).length
