@@ -36,3 +36,11 @@ function repeatStr(n, s) {
     // return the variable str
     return str
 }
+
+
+
+// less lines
+function repeatStr(n, str){
+    // return str repeated n times using the .repeat() method
+    return str.repeat(n);
+}
