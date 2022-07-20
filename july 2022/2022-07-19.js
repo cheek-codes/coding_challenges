@@ -45,3 +45,8 @@ function noSpace(x){return x.split(' ').join('')}
 function noSpace(x){
     return x.replace(/ /g, "")
 }
+
+
+
+// even lesser lines
+const noSpace = x => x.replace(/ /g, "");
