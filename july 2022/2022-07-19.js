@@ -38,3 +38,10 @@ function noSpace(x){
 // less lines
 // using the .spilt() method and the .join() method. get rid of the space and then rejoin it. return the final result
 function noSpace(x){return x.split(' ').join('')}
+
+
+
+// lesser lines
+function noSpace(x){
+    return x.replace(/ /g, "")
+}
