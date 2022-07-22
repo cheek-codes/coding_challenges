@@ -20,3 +20,7 @@
 
 
 
+function greet(name) {
+    // return string using +
+    return "Hello, " + name + " how are you doing today?";
+}
