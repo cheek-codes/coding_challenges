@@ -24,3 +24,11 @@ function greet(name) {
     // return string using +
     return "Hello, " + name + " how are you doing today?";
 }
+
+
+
+// less lines
+function greet(name) {
+    // return string using template literals
+    return `Hello, ${name} how are you doing today?`
+  }
