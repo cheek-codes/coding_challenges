@@ -19,3 +19,7 @@
 
 
 
+function removeChar(str){
+    // using .slice() method, remove the first and last character of the given parameter. first letter being 1, and last letter being -1
+    return str.slice(1, -1)
+}
