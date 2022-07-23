@@ -5,3 +5,17 @@
 
 
 // P: Will we be given numbers such as floats and integers? Will we be given empty strings? Will we be given uppercase letters? Will we be given lowercase letters?
+
+
+
+// R: Return a new string that will return a new string where the first and last character of the given parameter is removed.
+
+
+
+// E: 1. If we are given "wooden", should return "oode"
+// E: 2. If we are given "chips", should return "hip"
+// E: 3. If we are given "penis", should return "eni"
+// E: 4. If we are given "moon", should return "oo"
+
+
+
