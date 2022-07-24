@@ -12,3 +12,7 @@
 
 
 // P: Will we be given empty strings? Will we be given strings? Will we be given special characters? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers? 
+
+
+
+// R: Return a new number that was raised by 5 to the number of digits of each number
