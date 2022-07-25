@@ -37,3 +37,23 @@ function DNAtoRNA(dna) {
     // using the .split() method, take out the "T", then using the .join() method to rejoin the string with "U"
     return dna.split("T").join("U");
 }
+
+
+
+//long way
+function DNAtoRNA(dna) {
+    // create a new variable hold to hold the new string
+    var hold = ''
+
+    // create a new for loop to loop through the given parameter.
+    // create an if else statement to see if the given parameter has a "T", if true, replace it with "U"
+    for(var i =0;i<dna.length;i++) {
+       if(dna[i]=="T") {
+          hold+="U"
+  }
+  else{hold+=dna[i]}
+  }
+
+  // return the variable hold with new string
+  return hold;
+}
