@@ -31,4 +31,9 @@ function greet(name) {
 function greet(name) {
     // return string using template literals
     return `Hello, ${name} how are you doing today?`
-  }
+}
+
+
+
+// lesser lines
+const greet = name => `Hello, ${name} how are you doing today?`
