@@ -41,3 +41,8 @@ function simpleMultiplication(number){
 
 // even less lines
 const simpleMultiplication = number => number % 2 ? number * 9 : number * 8
+
+
+
+// even lesser lines
+const simpleMultiplication = number => (8 + number % 2) * number
