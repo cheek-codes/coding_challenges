@@ -16,7 +16,9 @@
 // Make sure you cover the cases where certain words do no show up with correct capitalization. For example, the input "pOLitiCIaN" should still return "Your tax dollars".
 
 
+
 // P: Will I be given special characters? Will there be numbers? Will I be given empty string? Will it only be strings?
+
 
 
 // R: Return "Patron Tequila" if input is "Jabroni", case insensitive.
@@ -28,6 +30,7 @@
 // R: Return "Beer" if input is anything else other than the ones listed above.
 
 
+
 // E: 1. If we are given "jabroni", should return "Patron Tequila"
 // E: 2. If we are given "school counselor", should return "Anything with Alcohol"
 // E: 3. If we are given "programmer", should return "Hipster Craft Beer"
@@ -37,3 +40,20 @@
 // E: 7. If we are given "doctor", should return "Beer"
 // E: 8. If we are given "stay at home dad", should return "Beer"
 
+
+
+function getDrinkByProfession(param){
+  // make every input case insensitive using .toLowerCase()
+  param = param.toLowerCase()
+
+  // I want to use if else statements, but it's too long, and annoying. So I'm gonna use switch case statements instead for the inputs to be evaluated.
+  switch(param){
+    case "jabroni": return "Patron Tequila"
+    case "school counselor": return "Anything with Alcohol"
+    case "programmer": return "Hipster Craft Beer"
+    case "bike gang member": return "Moonshine"
+    case "politician": return "Your tax dollars"
+    case "rapper": return "Cristal"
+    default: return "Beer"
+  }
+}
