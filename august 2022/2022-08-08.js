@@ -28,3 +28,12 @@
 // R: Return "Beer" if input is anything else other than the ones listed above.
 
 
+// E: 1. If we are given "jabroni", should return "Patron Tequila"
+// E: 2. If we are given "school counselor", should return "Anything with Alcohol"
+// E: 3. If we are given "programmer", should return "Hipster Craft Beer"
+// E: 4. If we are given "bike gang member", should return "Moonshine"
+// E: 5. If we are given "politician", should return "Your tax dollars"
+// E: 6. If we are given "rapper", should return "Cristal"
+// E: 7. If we are given "doctor", should return "Beer"
+// E: 8. If we are given "stay at home dad", should return "Beer"
+
