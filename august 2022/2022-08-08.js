@@ -1,14 +1,20 @@
-// ES6 string addition
+// Barender, drinks!
 
-// It is easy to join two string together like this [string1 + string2]
+// Complete the function that recieves as input a string, and produces outputs according to the following:
 
-// Another way to get the desired result would be with [string1.concoat(string2)]
+// input --> output
+// "Jabroni" --> "Patron Tequila"
+// "School Counselor" --> "Anything with Alcohol"
+// "Programmer" --> "Hipster Craft Beer"
+// "Bike Gang Member" --> "Moonshine"
+// "Politician" --> "Your tax dollars"
+// "Rapper" --> "Cristal"
+// anything else --> "Beer"
 
-// ES6 has introduced another way of joining strings. Your task is to find out what this is and write a function that will add two strings together, there must be a space between the two strings
+// Note: anything else is the default case: if the input to the function is not any of the values in the table, the the return value should be ["Beer"]
 
-// [+], [.concat()], and [.join()] will not be allowed in this exercise. I have also removed some other methods that can be used to cheat!
+// Make sure you cover the cases where certain words do no show up with correct capitalization. For example, the input "pOLitiCIaN" should still return "Your tax dollars".
 
-// If one of the arguments is a number your code must coerce it into being a string. 
 
 // P: Will I be given special characters? Will there be an empty strings? Will it only be strings? Will there be numbers? 
 
@@ -25,6 +31,6 @@
 // use template literals to allow variables in the string
 
 function joinStrings(string1, string2){
-    // code here
-   return `${string1} ${string2}`
- }
+  // code here
+ return `${string1} ${string2}`
+}
