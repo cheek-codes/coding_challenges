@@ -16,21 +16,15 @@
 // Make sure you cover the cases where certain words do no show up with correct capitalization. For example, the input "pOLitiCIaN" should still return "Your tax dollars".
 
 
-// P: Will I be given special characters? Will there be an empty strings? Will it only be strings? Will there be numbers? 
+// P: Will I be given special characters? Will there be numbers? Will I be given empty string? Will it only be strings?
 
 
-// R: Return a concatinated string using ES6, without [.concat()], [+], [.join()], and other methods
+// R: Return "Patron Tequila" if input is "Jabroni", case insensitive.
+// R: Return "Anything with Alcohol" if input is "school counselor", case insensitive.
+// R: Return "Hipster Craft Beer" if input is "programmer", case insensitive.
+// R: Return "Moonshine" if input is "bike gang member", case insensitive.
+// R: Return "Your tax dollars" if input is "politician", case insensitive.
+// R: Return "Cristal" if input is "rapper", case insensitive.
+// R: Return "Beer" if input is anything else other than the ones listed above.
 
 
-// E: 1. If we are given "cat", and "dog", should return [cat dog]
-// E: 2. If we are given "software", and "engineer", should return [software engineer]
-// E: 3. If wer are given "fuck", and "you", should return [fuck you]
-// E: 4. If we are given "hakuna", and "matata", should return [hakuna matata]
-
-
-// use template literals to allow variables in the string
-
-function joinStrings(string1, string2){
-  // code here
- return `${string1} ${string2}`
-}
