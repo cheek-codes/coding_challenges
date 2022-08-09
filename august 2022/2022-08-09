@@ -39,3 +39,4 @@ var summation = function (num){
     // return the variable i created to show the total sum.
     return math
 }
+
