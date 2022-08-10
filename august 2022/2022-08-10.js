@@ -21,3 +21,9 @@
 
 
 
+function nameShuffler(str){
+    // split the string into separate strings from the space in between them
+    // reverse the order of the string
+    // then join the strings back together
+    return str.split(" ").reverse().join(" ")
+}
