@@ -24,3 +24,18 @@
 
 
 
+function abbrevName(name){
+    // separate the first name and last name via the space in between the two
+    let separate = name.split(" ")
+
+    // change the firstname and lastname into all upper case and create a new variable for them both
+    let first = separte[0].toUpperCase()
+    let last = separate[1].toUpperCase()
+
+    // take the first letter of the firstname and the first letter of the lastname and create a new variable for them both
+    let firstAb = first[0]
+    let lastAb = last[0]
+
+    // return the first initial as a capital letter, a [.], and last initial as a capital letter using template literals
+    return `${firstAb}. ${lastAb}` 
+}
