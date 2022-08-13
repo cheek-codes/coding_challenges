@@ -1,41 +1,22 @@
-// Abbreviate a two word name
+// Function 1-hello world
 
-// Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+// Make a simple function called [greet] that returns the most famous "hello world!".
 
-// The output should be two capital letters witha  dot spearating them.
-
-// It should look like this:
-// [Sam Harris] --> [S.H]
-// [patrick feeney] --> [P.F]
+// Style Points
+// Sure, this is about as easy as it gets. but how clever can you be to create the most creative hello world you can thing of? What is a "hello world" solution you would want to show your friends?
 
 
 
-// P: Will I be given a special character? Will there be numbers such as floats and integers? Will there be an empty string? Will we only be given strings?
+// P: Will we be given special characers? Will we be given numbers such as integers and floats? Will we be given an empty string? Will we only be given strings? Will we have to return "hello world!" in lower case? Will we only have to return "hello world!"?
 
 
 
-// R: Return with capital first initial, [.], and capital last initial case insensitive
+// R: Return "hello world!" exactly in a function of greet.
 
 
 
-// E: 1. If we are given "john doe", should return "J.D"
-// E: 2. If we are given "donald duck", should return "D.D"
-// E: 3. If we are given "princess bubblegum", should return "P.B"
+// E: 1. If we are to call this function, should return "hello world!"
+// E: 2. If we are to call this function, should not return "Hello World!"
+// E: 3. If we are to call this function, should not return "heLLo WoRlD!"
 
 
-
-function abbrevName(name){
-    // separate the first name and last name via the space in between the two
-    let separate = name.split(" ")
-
-    // change the firstname and lastname into all upper case and create a new variable for them both
-    let first = separte[0].toUpperCase()
-    let last = separate[1].toUpperCase()
-
-    // take the first letter of the firstname and the first letter of the lastname and create a new variable for them both
-    let firstAb = first[0]
-    let lastAb = last[0]
-
-    // return the first initial as a capital letter, a [.], and last initial as a capital letter using template literals
-    return `${firstAb}. ${lastAb}` 
-}
