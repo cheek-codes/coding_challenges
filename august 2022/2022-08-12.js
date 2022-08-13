@@ -20,3 +20,9 @@
 // E: 3. If we are to call this function, should not return "heLLo WoRlD!"
 
 
+
+// create a function called greet
+function greet(){
+    // return  "hello world!" whenever the function is called. lower case only
+    return "hello world!"
+}
