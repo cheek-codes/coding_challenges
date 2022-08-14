@@ -1,29 +1,28 @@
-// Name Shuffler
-
-// Write a function that returns a string in which firsname is swapped with lastname.
-
-// example(input --> output)
-// "john McClane" --> "McClane john"
+// Find the smallest integer in the array
 
 
+// Given an array of integers your solution should find the smallest integer. 
 
-// P: Will I be given special character? Will I be given numbers such as floats and integers? Will there be empty strings? Will I only be given strings?
+// For example:
+// Given [34, 15, 88, 2] your solution will return [2]
+// Given [31, -345, -1, 100] your solution will return [-345]
 
-
-
-// R: Return as [lastname firstname]
+// You can assume, for the purpose of this kata, that the supplies array will not be empty.
 
 
 
-// E: 1. If we are given "john doe", should return "doe john"
-// E: 2. If we are given "donald duck", should return "duck donald"
-// E: 3. If we are given "princess bubblegum", should return "bubblegum princess"
+// P: Will we be given special characters? Will we be given strings? Will we be given an empty array? Will we be given floats? Will we be given only integers?
 
 
 
-function nameShuffler(str){
-    // split the string into separate strings from the space in between them
-    // reverse the order of the string
-    // then join the strings back together
-    return str.split(" ").reverse().join(" ")
-}
+// R: Return the lowest integer in the array which includes negative integers
+
+
+
+// E: 1. If we are given an array of [34, 15, 88, 2], should return 2
+// E: 2. If we are given an array of [34, -345, -1, 100], should return -345
+// E: 3. If we are given an array of [78, 56, 232, 412, 228], should return 56
+// E: 4. If we are given an array of [1, -56, 232, 12, 8], should return -56
+
+
+
