@@ -26,3 +26,9 @@
 
 
 
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        // to find the smallest integer using Math.min as well as a spread operator to expand the array
+        return Math.min(...args)
+    }
+  }
