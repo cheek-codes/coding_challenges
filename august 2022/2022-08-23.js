@@ -1,36 +1,25 @@
-// Find the smallest integer in the array
+// Sum of positive
 
+// You get an array of numbers, return the sum of all of the positives ones.
 
-// Given an array of integers your solution should find the smallest integer. 
+// Example:
+// [1,-4,7,12] => 1 + 7 + 12 = 20
 
-// For example:
-// Given [34, 15, 88, 2] your solution will return [2]
-// Given [31, -345, -1, 100] your solution will return [-345]
-
-// You can assume, for the purpose of this kata, that the supplies array will not be empty.
-
-
-
-// P: Will we be given special characters? Will we be given strings? Will we be given an empty array? Will we be given floats? Will we be given only integers?
+// Note if there is nothing to sum, the sum is default to 0.
 
 
 
-// R: Return the lowest integer in the array which includes negative integers
+// P: Will we be given a string? Will we be given an empty string? Will we be given a float? Will we be given a negative number? Will we be given an empty array?
 
 
 
-// E: 1. If we are given an array of [34, 15, 88, 2], should return 2
-// E: 2. If we are given an array of [34, -345, -1, 100], should return -345
-// E: 3. If we are given an array of [78, 56, 232, 412, 228], should return 56
-// E: 4. If we are given an array of [1, -56, 232, 12, 8], should return -56
+// R: Return a sum of all only the positive numbers from the given array.
 
 
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-        // to find the smallest integer using Math.min as well as a spread operator to expand the array
-        return Math.min(...args)
-    }
-  }
+// E: 1. If we are given the array [1,-4,7,12], should return 20 because 1 + 7 + 12 = 20
+// E: 2. If we are given the array [2,4,6,0], should return 12 because 2 + 4 + 6 + 0 = 12
+// E: 3. If we are given the array [-9393,5,2,3], should return 10 because 5 + 2 + 3 = 10
 
-  
+
+
