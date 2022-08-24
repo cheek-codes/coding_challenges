@@ -23,3 +23,18 @@
 
 
 
+function positiveSum(arr){
+    // set up a variable where numbers can be added
+    var sum = 0
+
+    // set up a loop to go through array of any given length
+    for(let i=0; i<arr.length; i++){
+        // only add positive/numbers greater than zero from the array
+        if(arr[i] > 0){
+            // add the positive/numbers greater than zero to the variable sum
+            sum += arr[i]
+        }
+    }
+    // return the variable sum
+    return sum
+}
