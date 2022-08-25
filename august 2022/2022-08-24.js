@@ -32,3 +32,14 @@
 
 
 
+function makeNegative(num){
+    // set up an if else statement
+    if(num > 0){
+        // if num is > 0, should return as a negative number by multiplying it by -1
+        return (-1 * num)
+    }
+    else{
+        // return the number just the way it was
+        return num
+    }
+}
