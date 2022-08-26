@@ -20,3 +20,14 @@
 
 
 
+function boolToWord(bool){
+    // set up if else statements
+    if (bool === true){
+        // if bool is === true, return as yes    
+        return "Yes"
+    }
+    // or else return "No" in place of false
+    else{
+        return "No"
+    }
+}
