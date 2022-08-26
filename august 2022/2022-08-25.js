@@ -31,3 +31,13 @@ function boolToWord(bool){
         return "No"
     }
 }
+
+
+
+// less lines
+function boolToWord(bool){
+    // set up if else statements
+    // if bool is === true, return as yes  
+    // or else return "No" in place of false
+    return bool ? "Yes" : "No"
+}
