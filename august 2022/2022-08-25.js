@@ -41,3 +41,11 @@ function boolToWord(bool){
     // or else return "No" in place of false
     return bool ? "Yes" : "No"
 }
+
+
+
+// even less lines
+    // set up if else statements
+    // if bool is === true, return as yes  
+    // or else return "No" in place of false
+    const boolToWord = bool => bool ? "Yes" : "No"
