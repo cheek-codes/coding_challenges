@@ -21,3 +21,14 @@
 
 
 
+function even_or_odd(number){
+    // set up if else statement
+    // if number % by 2 === 0, return "Even"
+    if(number % 2 === 0){
+        return "Even"
+    }
+    // or else, return "Odd"
+    else{
+        return "Odd"
+    }
+}
