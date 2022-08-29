@@ -18,3 +18,14 @@
 
 
 
+function simpleMultiplication(number){
+    // set up if else statement
+    // using a modulus, if the given number is divisible by 2, with no remainders, multiply it by 8 and return a new number that was multiplied by 8
+    if (number % 2 === 0){
+        return number * 8
+    }
+    // otherwise, if the given number is not divisible by 2, with remainders, multiply it by 9 and return a new number that was multiplied by 9
+    else{
+        return number * 9
+    }
+}
