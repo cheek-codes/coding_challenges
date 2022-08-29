@@ -29,3 +29,7 @@
 
 
 
+function shortcut (string) {
+    // using .replace() method. replace all global a, e, i, o, u with an empty character
+    return string.replace(/a|e|i|o|u/g, "")
+}
