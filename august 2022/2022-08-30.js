@@ -10,3 +10,18 @@
 
 // For example:
 // "GCAT"  =>  "GCAU"
+
+
+
+// P: Will we be given numbers such as floats and integers? Will we be given empty strings? Will we be given uppercase letters? Will we be given lowercase letters?
+
+
+
+// R: Return a new string that has replaced T with U
+
+
+
+// E: 1. If we are given "GCAT", should return "GCAU"
+
+
+
