@@ -24,3 +24,14 @@
 
 
 
+function areYouPlayingBanjo(name) {
+    // create an if else statement
+    // if the given name parameter starts with "R" or "r", return name plays banjo
+    // otherwise, return name does not play banjo
+    if (name [0] === "R" || name [0] === "r"){
+      return `${name} plays banjo`
+    }
+    else{
+      return `${name} does not play banjo`
+    }
+}
