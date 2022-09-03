@@ -63,3 +63,7 @@ const numberToString = num => num.toString();
 
 
 const numberToString = num => `${num}`;
+
+
+
+numberToString = String;
