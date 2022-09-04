@@ -1,4 +1,4 @@
-// contamination #1 - String
+// Contamination #1 - String
 
 // An AI has infected a text with a character!!
 
