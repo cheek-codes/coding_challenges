@@ -33,3 +33,7 @@ const contamination = (text, char) => text.replace(/./g, char);
 
 
 var contamination = (text, char) => [...text].map(e => e = char).join('')
+
+
+
+const contamination = (s,v) => s.replace(/./g,v);
