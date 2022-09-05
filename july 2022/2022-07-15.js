@@ -25,3 +25,7 @@ function contamination(text, char){
 function contamination(text, char){
     return text.replace(/./g, char);
 }
+
+
+
+const contamination = (text, char) => text.replace(/./g, char);
