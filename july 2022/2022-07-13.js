@@ -88,3 +88,18 @@ let multiTable = n => {
     9 * ${n} = ${9*n}
     10 * ${n} = ${10*n}`
 }
+
+
+
+// better. less lines
+const multiTable = (number) => {
+    // create a new variable named table to hold the final string
+    let table = ""
+
+    // create a for loop to loop through the given number starting at 1 all the way through the given number
+    for(let i=1; i<=10; i++){
+        // using a template literal, create a new string with the muliplication table of the given number
+        table += `${i} * ${number} = ${i * number}${i<10 ? "\n" : ""}`
+    }
+    return table
+}
