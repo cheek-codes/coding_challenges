@@ -121,3 +121,8 @@ function multiTable(number) {
 function multiTable(n) {
     return [...Array(10)].map((_,i)=>`${i+1} * ${n} = ${n*i+n}`).join('\n')
 }
+
+
+
+// lesser lines
+const multiTable = n => ([1,2,3,4,5,6,7,8,9,10].map(i=>`${i} * ${n} = ${i*n}`)).join('\n')
