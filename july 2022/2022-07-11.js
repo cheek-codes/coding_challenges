@@ -8,7 +8,8 @@
 
 
 
-// P: Will we be given floats? Will we be given integers? Will we be given special characters? Will we be given a string? Will we be given an empty string?
+// P: Will we be given floats? Will we be given integers? Will we be given special characters? Will we be given a string? Will we be given an empty string? Will we be given uppercase letters? Will we be given lowercase letter?
 
 
 
+// R: 
