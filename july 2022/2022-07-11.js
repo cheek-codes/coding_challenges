@@ -14,3 +14,10 @@
 
 // R: Return true if the beast and dish both start and end with the same letter.
 // R: Return false if the beast and dish do no start and end with the same letter.
+
+
+
+// E: 1. If we are given a beast called "great blue heron", and a dish called "garlic naan", should return true.
+// E: 2. If we are given a beast called "chickadee", and a dish called "chocolate cake", should return true
+// E: 3. If we are given a beast called "brown bear", and a dish called "bear claw", should return false
+// E: 4. If we are given a beast called "marmot", and a dish called "mulberry tart", should return true
