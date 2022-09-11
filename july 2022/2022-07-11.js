@@ -12,4 +12,5 @@
 
 
 
-// R: 
+// R: Return true if the beast and dish both start and end with the same letter.
+// R: Return false if the beast and dish do no start and end with the same letter.
