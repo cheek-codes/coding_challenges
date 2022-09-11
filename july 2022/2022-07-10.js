@@ -106,3 +106,7 @@ function defineSuit(card) {
 function defineSuit(card) {
     return { "♣" : "clubs", "♦" : "diamonds", "♥" : "hearts", "♠" : "spades"} [card.slice(-1)]
 }
+
+
+
+defineSuit=([a,b,c])=>({"♣":'clubs',"♠":'spades',"♦":'diamonds',"♥":'hearts'})[c||b]
