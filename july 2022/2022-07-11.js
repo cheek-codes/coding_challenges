@@ -21,3 +21,17 @@
 // E: 2. If we are given a beast called "chickadee", and a dish called "chocolate cake", should return true
 // E: 3. If we are given a beast called "brown bear", and a dish called "bear claw", should return false
 // E: 4. If we are given a beast called "marmot", and a dish called "mulberry tart", should return true
+
+
+
+function feast(beast, dish) {
+    // create an if else statement to test if the first letter are the same in beast and dish, as well as the last letter are the same in beast and dish. return true, if they are the same
+    if (beast[0]=== dish[0] && beast[beast.length -1]=== dish[dish.length -1]){
+        return true
+    }
+    
+    // otherwise, return false
+    else{
+        return false
+    }
+}
