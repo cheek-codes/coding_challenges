@@ -49,3 +49,24 @@ function feast(beast, dish) {
   String.prototype.last = function() {
     return this[this.length-1];
 }
+
+
+
+function feast(beast, dish) {
+    var v1 = beast.split("").shift();
+    var v2 = beast.split("").pop();
+    var v3 = dish.split("").shift();
+    var v4 = dish.split("").pop();
+    return (v1 === v3 && v2 === v4);
+}
+
+
+
+function feast(beast, dish) {
+    let beastFirstChar = beast.charAt(0);
+    let beastLastChar = beast.charAt(beast.length - 1);
+    let dishFirstChar = dish.charAt(0);
+    let dishLastChar = dish.charAt(dish.length - 1);
+    
+    return beastFirstChar === dishFirstChar && beastLastChar === dishLastChar ? true : false;
+}
