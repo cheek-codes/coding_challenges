@@ -70,3 +70,9 @@ function feast(beast, dish) {
     
     return beastFirstChar === dishFirstChar && beastLastChar === dishLastChar ? true : false;
 }
+
+
+
+function feast(beast, dish) {
+    return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+}
