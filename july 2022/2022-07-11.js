@@ -86,3 +86,7 @@ function feast(beast, dish) {
 
 
 feast=(beast, dish)=>beast.slice(0,1)==dish.slice(0,1)&&beast.slice(-1)==dish.slice(-1)
+
+
+
+const feast = (...args) => /^(.).*(.),\1.*\2$/.test(args);
