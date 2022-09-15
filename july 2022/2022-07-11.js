@@ -90,3 +90,7 @@ feast=(beast, dish)=>beast.slice(0,1)==dish.slice(0,1)&&beast.slice(-1)==dish.sl
 
 
 const feast = (...args) => /^(.).*(.),\1.*\2$/.test(args);
+
+
+
+feast=(a,b,f=s=>s[0]+s[s.length-1])=>f(a)==f(b)
