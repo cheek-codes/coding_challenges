@@ -11,3 +11,10 @@
 
 
 // P: Will we be given strings? Will we be given an empty string? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers? Will we be given special characters?
+
+
+
+// R: Return "clubs" if "♣" is in the given string.
+// R: Return "diamonds" if "♦" is in the given string.
+// R: Return "hearts" if "♥" is in the given string.
+// R: Return "spades" if "♠" is in the given string.
