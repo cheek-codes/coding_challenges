@@ -25,3 +25,21 @@
 // E: 2. If we are given '10♦', should return 'diamonds'
 // E: 3. If we are given 'J♥', should return 'hearts'
 // E: 4. If we are given 'Q♠', should return 'spades'
+
+
+
+function defineSuit(card) {
+    // create an if else statement for each of the card suits
+    if (card.includes('♣')) {
+      return "clubs"
+    }
+    else if (card.includes('♦')) {
+      return "diamonds"
+    }
+    else if (card.includes('♥')) {
+      return "hearts"
+    }
+    else if (card.includes('♠')) {
+      return "spades"
+    }
+}
