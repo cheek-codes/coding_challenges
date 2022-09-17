@@ -22,6 +22,6 @@
 
 
 // E: 1. If we are given '3♣', should return 'clubs'
-// E: 2. If we are given '3♦', should return 'diamonds'
-// E: 3. If we are given '3♥', should return 'hearts'
-// E: 4. If we are given '3♠', should return 'spades'
+// E: 2. If we are given '10♦', should return 'diamonds'
+// E: 3. If we are given 'J♥', should return 'hearts'
+// E: 4. If we are given 'Q♠', should return 'spades'
