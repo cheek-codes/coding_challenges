@@ -18,3 +18,10 @@
 // R: Return "diamonds" if "♦" is in the given string.
 // R: Return "hearts" if "♥" is in the given string.
 // R: Return "spades" if "♠" is in the given string.
+
+
+
+// E: 1. If we are given '3♣', should return 'clubs'
+// E: 2. If we are given '3♦', should return 'diamonds'
+// E: 3. If we are given '3♥', should return 'hearts'
+// E: 4. If we are given '3♠', should return 'spades'
