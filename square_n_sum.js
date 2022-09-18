@@ -23,3 +23,11 @@
 
 
 
+
+function squareSum(numbers){
+    let maths = 0
+    for (let i = 0; i < numbers.length; i ++){
+      maths += numbers[i]**2
+    }
+    return maths
+}
