@@ -31,3 +31,11 @@ function squareSum(numbers){
     }
     return maths
 }
+
+
+
+function squareSum(number){
+    return numbers.reduce(function(sum, n){
+        return (n*n) + sum
+    }, 0)
+}
