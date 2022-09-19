@@ -68,3 +68,15 @@ function defineSuit(card) {
     
     return c < 13 ? 'clubs' : c < 26 ? 'diamonds' : c < 39 ? 'hearts' : 'spades';
 }
+
+
+
+function defineSuit(card) {
+    const s = {
+      "♣": "clubs",
+      "♠": "spades",
+      "♦": "diamonds",
+      "♥": "hearts"
+    }
+    return s[card.charAt(card.length - 1)]
+}
