@@ -80,3 +80,12 @@ function defineSuit(card) {
     }
     return s[card.charAt(card.length - 1)]
 }
+
+
+
+function defineSuit(card) {
+    if(card.includes('♥')) return 'hearts'
+    if(card.includes('♦')) return 'diamonds'
+    if(card.includes('♣')) return 'clubs'
+    if(card.includes('♠')) return 'spades' 
+}
