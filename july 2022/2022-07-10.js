@@ -100,3 +100,9 @@ function defineSuit(card) {
       '♠' : 'spades'
     }[card.substr(-1)]
 }
+
+
+
+function defineSuit(card) {
+    return { "♣" : "clubs", "♦" : "diamonds", "♥" : "hearts", "♠" : "spades"} [card.slice(-1)]
+}
