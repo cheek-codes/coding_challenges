@@ -9,3 +9,10 @@
 
 
 // R: Return a converted boolean value into as a string
+
+
+
+// E: 1. If we are given true, should return as "true"
+// E: 2. If we are given false, should return as "false"
+// E: 3. If we are given "2 === 3", should return "false"
+// E: 4. If we are givne "2 === 2", should return "true"
