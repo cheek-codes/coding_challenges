@@ -40,3 +40,10 @@ function booleanToString(b){
     }
         return "false";
 }
+
+
+
+function booleanToString(b){
+    // use the String() method to convert
+    return String(b)
+}
