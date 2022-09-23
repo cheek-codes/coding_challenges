@@ -31,3 +31,12 @@ function booleanToString(b){
       return "false";
     }
 }
+
+
+
+function booleanToString(b){
+    if(b){
+        return "true";
+    }
+        return "false";
+}
