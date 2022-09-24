@@ -47,3 +47,9 @@ function booleanToString(b){
     // use the String() method to convert
     return String(b)
 }
+
+
+
+function booleanToString(b){
+    return b.toString();
+}
