@@ -63,3 +63,7 @@ function booleanToString(b){
 
 
 const booleanToString = b => b ? 'true' : 'false';
+
+
+
+const booleanToString = String;
