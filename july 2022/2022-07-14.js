@@ -85,3 +85,10 @@ function switchItUp(number) {
       case 9: return 'Nine';
     }
 }
+
+
+
+// lesser lines
+function switchItUp(n){
+    return ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
+}
