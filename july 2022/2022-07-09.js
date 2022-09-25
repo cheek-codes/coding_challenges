@@ -67,3 +67,7 @@ const booleanToString = b => b ? 'true' : 'false';
 
 
 const booleanToString = String;
+
+
+
+booleanToString=b=>b+""
