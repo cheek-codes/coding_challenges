@@ -114,3 +114,8 @@ function switchItUp(number){
 function switchItUp(n){
     return ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
 }
+
+
+
+// one liner
+switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
