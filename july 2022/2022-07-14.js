@@ -36,4 +36,34 @@
 // E: 7. If we are given a parameter of 6, should Return a "Six" 
 // E: 8. If we are given a parameter of 7, should Return a "Seven" 
 // E: 9. If we are given a parameter of 8, should Return a "Eight" 
-// E: 10. If we are given a parameter of 9, should Return a "Nine" 
+// E: 10. If we are given a parameter of 9, should Return a "Nine"
+
+
+
+function switchItUp(number){
+    // create a switch case statement in place of if else statement to create a more readable and ease of coding
+    switch(number) {
+      case 0:
+        return 'Zero';
+      case 1:
+        return 'One';
+      case 2:
+        return 'Two';
+      case 3:
+        return 'Three';
+      case 4:
+        return  'Four';
+      case 5:
+        return 'Five';
+      case 6:
+        return 'Six';
+      case 7:
+        return 'Seven';
+      case 8:
+        return 'Eight';
+      case 9:
+        return 'Nine';
+      default:
+        return 'Unknown number';
+    }
+}
