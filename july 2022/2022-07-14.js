@@ -27,3 +27,13 @@
 
 
 
+// E: 1. If we are given a parameter of 0, should Return a "Zero" 
+// E: 2. If we are given a parameter of 1, should Return a "One" 
+// E: 3. If we are given a parameter of 2, should Return a "Two" 
+// E: 4. If we are given a parameter of 3, should Return a "Three" 
+// E: 5. If we are given a parameter of 4, should Return a "Four" 
+// E: 6. If we are given a parameter of 5, should Return a "Five" 
+// E: 7. If we are given a parameter of 6, should Return a "Six" 
+// E: 8. If we are given a parameter of 7, should Return a "Seven" 
+// E: 9. If we are given a parameter of 8, should Return a "Eight" 
+// E: 10. If we are given a parameter of 9, should Return a "Nine" 
