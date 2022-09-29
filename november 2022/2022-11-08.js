@@ -18,3 +18,15 @@
 
 
 
+function problem(x){
+    // create an if else statement
+    // check if parameter (x) is a number using typeof(x) === "number"
+    if (typeof(x) === "number"){
+        return (x*50) + 6
+    }
+
+    // otherwise if the given parameter is not a number and is of the string type, return "Error"
+    else{
+        return "Error"
+    }
+}
