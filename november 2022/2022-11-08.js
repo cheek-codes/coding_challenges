@@ -12,3 +12,9 @@
 
 
 
+// E: 1. If we are given 1, should return 56
+// E: 2. If we are given -1, should return -56
+// E: 3. If we are given "1", should return "Error"
+
+
+
