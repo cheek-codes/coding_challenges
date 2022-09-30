@@ -8,3 +8,7 @@
 
 
 
+// R: Return a new integer that was multiplied by 50 and increased by 6. Otherwise, return "Error" if it is a string. 
+
+
+
