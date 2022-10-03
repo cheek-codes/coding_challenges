@@ -51,3 +51,8 @@ function repeatStr(n, str){
 function repeatStr (n, s) {
     return n > 1 ? s + repeatStr(--n, s) : s;
   }
+
+
+
+// even lesser lines
+const repeatStr = (n,s) => s.repeat(n) ;
