@@ -44,3 +44,10 @@ function repeatStr(n, str){
     // return str repeated n times using the .repeat() method
     return str.repeat(n);
 }
+
+
+
+// lesser lines
+function repeatStr (n, s) {
+    return n > 1 ? s + repeatStr(--n, s) : s;
+  }
