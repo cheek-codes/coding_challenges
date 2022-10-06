@@ -31,3 +31,9 @@ function solution(s){
       o += s[i];
     return o;
 }
+
+
+
+function solution(str){
+    return str.split("").reverse().join("")
+}
