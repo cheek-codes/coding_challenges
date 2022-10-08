@@ -23,3 +23,10 @@
 // E: 2. If we are givnen 999, should return "999"
 // E: 3. If we are given -111, should return "-111"
 // E: 4. If we are given -1, should return "-1"
+
+
+
+function numberToString(num) {
+    // Return a string of the number here!
+    return String(num)
+}
