@@ -17,3 +17,10 @@
 // copaDelReyGoals
 
 // 2. Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
+
+
+
+// P: Will we be given strings? Will we be given empty strings? Will we be given floats? Will we be given negative numbers? Will we be given only integers?
+
+
+
