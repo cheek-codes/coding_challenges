@@ -5,7 +5,7 @@
 
 // Information:
 // Messi goal scoring statistics:
-// Competition	Goals
+// Competition --> Goals
 // La Liga --> 43
 // Champions League --> 10
 // Copa del Rey --> 5
@@ -21,6 +21,13 @@
 
 
 // P: Will we be given strings? Will we be given empty strings? Will we be given floats? Will we be given negative numbers? Will we be given only integers?
+
+
+
+// R: Make a new variable called laLigaGoals and assign it 43
+// R: Make a new variable called championsLeagueGoals and assign it 10
+// R: Make a new variable called copaDelReyGoals and assign it 5
+// R: Make a new variable called totalGoals and concatinate it with the laLigaGoals, championsLeagueGoals, and copaDelReyGoals
 
 
 
