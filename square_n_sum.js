@@ -39,3 +39,9 @@ function squareSum(number){
         return (n*n) + sum
     }, 0)
 }
+
+
+
+function squareSum(number){
+    return numbers.reduce((sum, num) => sum + (num*num), 0)
+}
