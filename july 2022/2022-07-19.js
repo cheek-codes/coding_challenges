@@ -32,3 +32,9 @@ function noSpace(x){
     // return the final result from the variable result
     return result;
 }
+
+
+
+// less lines
+// using the .spilt() method and the .join() method. get rid of the space and then rejoin it. return the final result
+function noSpace(x){return x.split(' ').join('')}
