@@ -9,3 +9,7 @@
 
 
 // P: Will we be given strings? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers? Will we be given special characters? Will we be given empty strings? Will we be given arrays?
+
+
+
+// R: Return a new string where a parameter of a string is repeated as many times as the given parameter of a number.
