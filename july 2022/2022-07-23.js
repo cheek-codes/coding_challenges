@@ -28,3 +28,8 @@ function removeChar(str){
 
 // less lines
 const removeChar = str => str.slice(1, -1)
+
+
+
+// lesser lines
+removeChar = str => str.slice(1, -1)
