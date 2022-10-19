@@ -6,3 +6,4 @@
 
 
 
+// P: Will we be given numbers such as floats and integers? Will we be given empty strings? Will we be given uppercase letters? Will we be given lowercase letters?
