@@ -7,3 +7,10 @@
 
 
 // P: Will we be given numbers such as floats and integers? Will we be given empty strings? Will we be given uppercase letters? Will we be given lowercase letters?
+
+
+
+// R: Return a new string of "Hello, <name> how are you doing today?" where <name> is the given parameter. 
+
+
+
