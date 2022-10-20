@@ -14,3 +14,9 @@
 
 
 
+// E: 1. If we are given a parameter name of "Sandy", should return "Hello, Sandy how are you doing today?"
+// E: 2. If we are given a parameter name of "Chris", should return "Hello, Chris how are you doing today?"
+// E: 3. If we are given a parameter name of "pumpkin", should return "Hello, pumpkin how are you doing today?"
+
+
+
