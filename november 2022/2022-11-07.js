@@ -30,6 +30,32 @@
 
 
 // R: Return a grade of 100 if the exam grade is more than 90 or if the number of completed projects is more than 10.
-// R: Return a grade of 90 if the exam grade is more than 75 and if the number of completed projects is more than 5.
-// R: Return a grade of 75 if the exam grade is more than 50 and if the number of completed projects is more than 2.
+// R: Return a grade of 90 if the exam grade is more than 75 and if the number of completed projects is 5 or more.
+// R: Return a grade of 75 if the exam grade is more than 50 and if the number of completed projects is 2 or more.
 // R: Return a grade of 0 if the exam grade is less than 50 and if the number of completed projects is less than 2.
+
+
+
+
+function finalGrade (exam, projects) {
+    // create an if else statement
+    // if exam grade is greater than 90 or number of completed projects is greater than 10, return a final grade of 100
+    if(exam > 90 || projects > 10){
+      return 100
+    }
+
+    // if exam grade is greater than 75 and number of completed projects is greater than or equal to 5, return a final grade of 90
+    else if(exam > 75 && projects >= 5){
+      return 90
+    }
+
+    // if exam grade is greater than 50 and number of completed projects is greater than or equal to 2, return a final grade of 75
+    else if(exam > 50 && projects >= 2){
+      return 75
+    }
+
+    // other wise, return the final grade of 0
+    else {
+      return 0
+    }
+}
