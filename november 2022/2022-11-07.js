@@ -29,3 +29,7 @@
 
 
 
+// R: Return a grade of 100 if the exam grade is more than 90 or if the number of completed projects is more than 10.
+// R: Return a grade of 90 if the exam grade is more than 75 and if the number of completed projects is more than 5.
+// R: Return a grade of 75 if the exam grade is more than 50 and if the number of completed projects is more than 2.
+// R: Return a grade of 0 if the exam grade is less than 50 and if the number of completed projects is less than 2.
