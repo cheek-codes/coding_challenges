@@ -29,3 +29,11 @@ function DNAtoRNA(dna){
     // using .replace() method. replace all global "T" with an "U"
     return dna.replace(/T/g, 'U');
 }
+
+
+
+// another way
+function DNAtoRNA(dna) {
+    // using the .split() method, take out the "T", then using the .join() method to rejoin the string with "U"
+    return dna.split("T").join("U");
+}
