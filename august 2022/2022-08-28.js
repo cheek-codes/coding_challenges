@@ -29,3 +29,10 @@ function simpleMultiplication(number){
         return number * 9
     }
 }
+
+
+
+// less lines
+function simpleMultiplication(number){
+    return (number % 2 === 0) ? number * 8 : number * 9
+}
