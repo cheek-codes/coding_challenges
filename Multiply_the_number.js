@@ -43,3 +43,17 @@ function multiply(number){
       return number * (5**num)
     }
 }  
+
+
+
+
+function multiply(number){
+    let num = number.toString().length
+    if (number >= 0){
+      return number * (5**num)
+    }
+    else{
+      num = num -1
+      return number * (5**num)
+    }
+}  
