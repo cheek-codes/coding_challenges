@@ -40,3 +40,8 @@ function even_or_odd(number){
 function even_or_odd(number){
     return number % 2 === 0 ? "Even" : "Odd"
 }
+
+
+
+// even less lines
+const even_or_odd => number (number % 2 === 0) ? "Even" : "Odd"
