@@ -45,3 +45,6 @@ function addFive(num) {
 
 
 
+// less lines
+const addFive = num => num + 5
+
