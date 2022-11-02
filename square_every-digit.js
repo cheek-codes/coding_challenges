@@ -13,3 +13,10 @@
 
 
 // R: Return a single integer where the square of every digit of a given number is squared and concatenated.
+
+
+
+// E: 1. If we are given 9119, should return 811181
+// E: 2. If we are given 3212, should return 9414
+// E: 3. If we are given 2112, should return 4114
+// E: 4. If we are given 0, should return 0
