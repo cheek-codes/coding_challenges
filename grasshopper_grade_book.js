@@ -22,3 +22,11 @@
 // R: Return "C", if grades are greater than or equal to 70, but less than 80
 // R: Return "D", if grades are greater than or equal to 60, but less than 70
 // R: Return "F", if grades are greater than or equal to 0, but less than 60
+
+
+
+// E: 1. If we are given 98, should return "A"
+// E: 2. If we are given 84, should return "B"
+// E: 3. If we are given 72, should return "C"
+// E: 4. If we are given 69, should return "D"
+// E: 5. If we are given 10, should return "F"
