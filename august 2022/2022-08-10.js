@@ -1,23 +1,17 @@
-// Grasshopper - Summation
+// Name Shuffler
 
-// Summation
+// Write a function that returns a string in which firsname is swapped with lastname.
 
-// Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
-
-// For example:
-// summation(2) -> 3
-// 1 + 2
-
-//summation(8) -> 36
-// 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+// example(input --> output)
+// "john McClane" --> "McClane john"
 
 
 
-// P: Will I be given special characters? Will I be given strings? Will I be given floats? Will I be given negative integers? Will it only be given positive integers?
+// P: Will I be given special character? Will I be given numbers such as floats and integers? Will there be empty strings? Will I only be given strings?
 
 
 
-// R: Return the total sum of every number from 1 to given number. 
+// R: Return as
 
 
 
