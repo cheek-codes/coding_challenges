@@ -18,3 +18,17 @@
 
 
 
+function noSpace(x){
+    // create a new variable called result that holds an empty string for now
+    var result = ""
+
+    // create a for loop that loops through the given string parameter
+    for(var index = 0; index < x.length; index++){
+        // create an if else statement to see if there are any spaces, it there are, remove them, and add the result to the variable result
+        if(x[index] !== " "){
+            result += x[index];
+        }
+    }
+    // return the final result from the variable result
+    return result;
+}
