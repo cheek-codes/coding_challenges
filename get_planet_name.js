@@ -137,3 +137,9 @@ function getPlanetName(id){
         return "invalid planet id in function getPlanetName()";
     }
 }
+
+
+
+function getPlanetName(i){
+    return (['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'])[i-1];
+}
