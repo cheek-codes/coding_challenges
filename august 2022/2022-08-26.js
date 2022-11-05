@@ -41,10 +41,17 @@ function addFive(num) {
     var total = num + 5
     // fix the above function by replacing num with total
     return total
-  }
+}
 
 
 
 // less lines
+function addFive(num){
+    return num += 5
+}
+
+
+
+// even less lines
 const addFive = num => num + 5
 
