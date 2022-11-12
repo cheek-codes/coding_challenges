@@ -19,3 +19,7 @@
 
 
 
+
+// R: Return -1 if either of the characters is not a letter
+// R: Return 1 if both characters are the same case
+// R: Return 0 if both characters are letters
