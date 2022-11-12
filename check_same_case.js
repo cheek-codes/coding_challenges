@@ -12,3 +12,10 @@
 // 'b' and 'G' returns 0
 // 'B' and 'g' returns 0
 // '0' and '?' returns -1
+
+
+
+// P: Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers? Will we be given strings? Will we be given an empty string? Will we be given uppercase letters? Will we be given lower case letters? Will we be given special characters?
+
+
+
