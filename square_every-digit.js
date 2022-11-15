@@ -20,3 +20,16 @@
 // E: 2. If we are given 3212, should return 9414
 // E: 3. If we are given 2112, should return 4114
 // E: 4. If we are given 0, should return 0
+
+
+
+function squareDigits(num){
+    // create a new variable, where I can turn the number into a string and split it into separate characters
+    let split = ("" + num).split("");
+
+    // create a for loop to loop through those numbers and ^2 them
+    for (let i = 0; i < split.length; i ++){
+        split[i] = split[i]**2
+    }
+    return parseInt(split.join(""))
+}
