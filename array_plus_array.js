@@ -27,3 +27,16 @@ function arrayPlusArray(arr1, arr2) {
 // E: 2. If we are given [-1, -2, -3], [-4, -5, -6], should return -21
 // E: 3. If we are given [0, 0, 0], [4, 5, 6], should return 15
 // E: 4. If we are given [100, 200, 300], [400, 500, 600], should return 2100
+
+
+
+function arrayPlusArray(arr1, arr2){
+    let sum = 0
+    for (let i = 0; i < arr1.length; i ++){
+        sum += arr1[i]
+    }
+    for (let i = 0; i < arr2.length; i ++){
+        sum += arr2[i]
+    }
+    return sum
+}
