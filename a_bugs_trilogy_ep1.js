@@ -68,3 +68,13 @@ const yourFutureCareer = () =>
 
 
 const yourFutureCareer = () => `${['FrontEnd', 'BackEnd', 'Full-Stack'][Math.random() * 3 | 0]} Developer`;
+
+
+
+
+const yourFutureCareer = ( career = Math.random()) => 
+    career <= 0.32 ? 'FrontEnd Developer' :
+    career <= 0.65 ? 'BackEnd Developer' :
+    'Full-Stack Developer';
+
+yourFutureCareer();
