@@ -15,3 +15,12 @@
 //: E: 1. If we were given "hello", should return "HELLO"
 //: E: 1. If we were given "HeLlo", should return "HELLO"
 //: E: 1. If we were given "HELLO", should return "HELLO"
+
+
+
+function MakeUpperCase(str){
+    return str.toUpperCase()
+}
+
+
+
