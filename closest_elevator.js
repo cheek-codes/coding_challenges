@@ -18,3 +18,10 @@
 // elevator(0, 1, 2); // => "right"
 // elevator(0, 0, 0); // => "right"
 // elevator(0, 2, 1); // => "right"
+
+
+
+// P: Will we be given empty strings? Will we be given strings? Will we be given special characters? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive numbers?
+
+
+
