@@ -18,9 +18,18 @@
 
 
 
-function MakeUpperCase(str){
+function makeUpperCase(str){
     return str.toUpperCase()
 }
 
 
 
+const makeUpperCase = str => return str.toUpperCase()
+
+
+
+function makeUpperCase(str){return str.toUpperCase()}
+
+
+
+makeUpperCase = str => str.toUpperCase()
