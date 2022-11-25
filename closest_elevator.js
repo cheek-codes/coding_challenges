@@ -25,3 +25,5 @@
 
 
 
+// R: Return the name of the elevator closest to the called floor.
+// R: Return the elevator to the right if both elevators are equally distant form the called floor.
