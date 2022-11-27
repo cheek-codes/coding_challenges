@@ -19,3 +19,30 @@
 // E: 2. If we are given "Melania", should return ["Melania", "Me"]
 // E: 3. If we are given "", should return [""]
 // E: 4. If we are given "I", should return ["I"]
+
+
+
+function whoIsPaying(name){
+    if (name.length <= 2){
+      return [name]
+    }
+    else {
+      return [name, name[0] + name[1]]
+    }
+}
+
+
+
+function whoIsPaying(name){
+    return (name.length > 2) ? [name, name.slice(0, 2)] : [name]
+}
+
+
+
+let whoIsPaying = name => name.length > 2 ? [name, name.slice`0${2}`] : [name]
+
+
+
+
+const whoIsPaying = name => 
+   name.length <= 2 ? [name] : [name, name.slice(0, 2)] 
