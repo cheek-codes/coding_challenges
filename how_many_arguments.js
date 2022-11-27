@@ -29,3 +29,9 @@ function args_count(){
 
 
 const args_count = (...args) => args.length
+
+
+
+function args_count(...args){
+    return args.length
+}
