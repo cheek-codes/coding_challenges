@@ -134,3 +134,69 @@ function points(games) {
       return (arraySplit[0] > arraySplit[1]) ? current += 3 : (arraySplit[0] < arraySplit[1]) ? current : current += 1;
     }, 0);
 }
+
+
+
+const points = a => a.reduce((r, e) => {
+    const x = e[0];
+    const y = e[2];
+    return r + (x > y ? 3 : x < y ? 0 : 1);
+  }, 0);
+
+
+
+
+points=g=>g.reduce((a,c)=>a+(c[0]>c[2]?3:c[0]<c[2]?0:1),0)
+
+
+
+
+const points = games => games
+  .map(str => str.split(':').map(Number))      // parse
+  .map(([x, y]) => x > y ? 3 : x < y ? 0 : 1)  // determine points
+  .reduce((sum, points) => sum + points, 0);   // sum points
+
+
+
+
+function points(games) {
+return games.map(x => x[0] - x[2])
+            .filter(x => x >= 0)
+            .reduce((a, b) => a + (b > 0 ? 3 : 1), 0);
+}
+
+
+
+
+const points = games =>
+  games.reduce((pre, [a, _, b]) => pre + (a > b) * 3 + +(a === b), 0);
+
+
+
+
+function points(games) {
+//keep track of running total 
+let score = (accumulator, currentValue) => accumulator + currentValue;;  
+const total = [];
+//record points per game
+for (i = 0; i < 10 ; i++) {
+    let gameScore = games[i];;
+    let x = gameScore.charAt(0);
+    let y = gameScore.charAt(2);
+    if (x > y) {
+    total.push(3);
+    } else if (x < y) {
+    total.push(0);
+    } else if (x = y) {
+    total.push(1);
+    }
+} 
+return total.reduce(score);
+}
+
+
+
+
+function points(a) {
+    return a.map(x => x.split(":").map(y => +y)).reduce((x, [y, z]) => x + (y > z ? 3 : y < z ? 0 : 1), 0);
+}
