@@ -38,3 +38,54 @@
 // E: 2. If we are given ["1:1","2:2","3:3","4:4","2:2","3:3","4:4","3:3","4:4","4:4"], should return 10
 // E: 3. If we are given ["0:1","0:2","0:3","0:4","1:2","1:3","1:4","2:3","2:4","3:4"], should retrun 0
 // E: 4. If we are given ["1:0","2:0","3:0","4:0","2:1","1:3","1:4","2:3","2:4","3:4"], should retrun 15
+
+
+
+function points(games) {
+    // create a variable where it will store accumulate points
+    let point = 0
+
+    // create a for loop  that goes through the array of games to get scores
+    for(let i = 0; i < games.length; i ++){
+
+        // create newvariables to assign the scores, since the array of games is an array of strings, we must use Number() function to turn the string scores into number
+        let x = Number(games[i].charAt(0))
+        let y = Number(games[i].charAt(2))
+
+        //using if else statements, add the points up depending on the values of x vs y
+        if (x > y){
+            point += 3
+            }
+        else if (x < y){
+            point += 0
+        }
+        else if (x === y){
+            point += 1
+        }
+    }
+
+    // return the accumulated points
+    return point
+}
+  
+  
+  
+  
+function points(games) {
+  // totalPoints will store the accumulated points
+  let totalPoints = 0;
+    
+    // loop through the games array to get the scores
+    for(i=0; i<games.length; i++) {
+   
+     // assign the scores, since games is an array of strings, we must use Number() to turn the string scores into numbers
+      let xScore = Number(games[i].charAt(0)); 
+      let yScore = Number(games[i].charAt(2));
+      
+      // Add points depending on the values of xScore compared to yScore
+      if (xScore > yScore) { totalPoints += 3; }
+      if (xScore < yScore) { totalPoints += 0; }
+      if (xScore === yScore) { totalPoints += 1; }
+    }
+    return totalPoints
+}
