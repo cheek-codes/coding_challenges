@@ -38,3 +38,141 @@
 
 
 
+function magNumber(info){
+    let bullets = 3* info[1]
+    let mag = 0
+    if(info[0] === "PT92"){
+      mag += 17
+    }
+    else if(info[0] === "M4A1" || info[0] === "M16A2"){
+      mag += 30
+    }
+    else {
+      mag += 5
+    }
+    return Math.ceil(bullets / mag)
+}
+
+
+
+
+
+magNumber = info => Math.ceil(info[1] * 3 / {PT92: 17, M4A1: 30, M16A2: 30, PSG1: 5}[info[0]])
+
+
+
+
+
+function magNumber(info){
+    const dict = {"PT92": 17, "M4A1": 30, "M16A2": 30, "PSG1": 5}
+    return Math.ceil(info[1] * 3 / dict[info[0]])
+}
+
+
+
+
+
+function magNumber(info){
+    [weapon, streets] = info
+    const weapons={
+      "PT92": 17,
+      "M4A1" : 30,
+      "M16A2" : 30,
+      "PSG1":5,
+    }
+    if(3*streets<=weapons[weapon]) return 1
+    else{
+        let n=1;
+        while(weapons[weapon]*n<streets*3) n++
+        return n
+    }
+}
+
+
+
+
+
+const magNumber = (info) => {
+    const [gun, street] = info;
+    let magzines = 0;
+    switch(gun){
+        case('PT92'):
+        magzines = Math.ceil((street * 3) / 17);
+        break;
+        case('M4A1'):
+        magzines = Math.ceil((street * 3) / 30);
+        break;
+        case('M16A2'):
+        magzines = Math.ceil((street * 3) / 30);
+        break;
+        case('PSG1'):
+        magzines = Math.ceil((street * 3) / 5);
+        break;
+    }
+    return magzines;
+}
+
+
+
+
+
+function magNumber(info){
+    const dict = new Map([
+      ["PT92", 17],
+      ["M4A1", 30],
+      ["M16A2", 30],
+      ["PSG1", 5]
+    ]);
+    return Math.ceil(info[1] * 3 / dict.get(info[0]));
+}
+
+
+
+
+
+function magNumber(info){
+    const weapons = {
+      PT92: 17,
+      M4A1: 30,
+      M16A2: 30,
+      PSG1: 5
+    }
+    for(let i = 0; i < info.length; i++){
+        return Math.ceil((info.pop() * 3) / weapons[info[i]]);
+    }
+}
+
+
+
+
+
+function magNumber(info) {
+    const [gun, bullet] = info;
+    
+    switch(gun) {
+      case 'PT92':
+        return Math.ceil(bullet * 3 / 17);
+      case 'M4A1':
+      case 'M16A2':
+        return Math.ceil(bullet * 3 / 30);
+      case 'PSG1':
+        return Math.ceil(bullet * 3 / 5);
+    }
+}
+
+
+
+
+
+const magNumber = ([weapon, streets]) => Math.ceil(streets * 3 / ({
+    'PT92': 17,
+    'M4A1': 30,
+    'M16A2': 30,
+    'PSG1': 5,
+  })[weapon]);
+
+
+
+
+
+const magNumber = info => Math.ceil(info[1]*3 /({PT92: 17, M4A1: 30, M16A2:30, PSG1:5})[info[0]])
