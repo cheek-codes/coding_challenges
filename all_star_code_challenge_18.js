@@ -37,3 +37,82 @@
 
 
 
+function strCount(str, letter){  
+    let count = 0
+    for(let i = 0; i < str.length; i ++){
+      if (str.charAt(i) === letter){
+        count ++
+      }
+    }
+    return count
+}
+
+
+
+
+
+function strCount(str, letter){  
+    let count = 0
+    for(let i = 0; i < str.length; i ++){
+      if (str.charAt(i) === letter){
+        count += 1
+      }
+    }
+    return count
+}
+
+
+
+
+function strCount(str, letter){  
+    return str.split(letter).length-1
+}
+
+
+
+
+function strCount(str, letter){  
+    return str.split('').filter(c => c == letter).length;
+}
+
+
+
+
+const strCount = (str, letter) => str.split(letter).length - 1;
+
+
+
+
+
+function strCount(str, letter){  
+    return str.split('').filter(a => a==letter).length;
+}
+
+
+
+
+const strCount = (str, letter) =>  
+  --str.split(letter).length;
+
+
+
+
+function strCount(str, letter) { 
+    let count = 0;
+
+    [...str].forEach(char => char == letter ? count++ : count);
+
+    return count;
+}
+
+
+
+
+const strCount = (str, letter) => str.split("").filter(i=>i===letter).length;
+
+
+
+
+
+const strCount = (str, letter) =>
+  [...str].reduce((a, b) => a + letter.includes(b), 0);
