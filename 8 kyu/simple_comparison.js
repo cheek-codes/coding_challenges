@@ -22,3 +22,39 @@
 // E: 2. If we were given add ("1", 1), should return true
 // E: 3. If we were given add (1, "0"), should return false
 // E: 4. If we were given add ("0", 1), should return false
+
+
+
+
+
+function add(a, b){
+	return a == b 
+}
+
+
+
+
+
+const add = (a, b) => a == b
+
+
+
+
+
+function add(a, b){
+    return +a === +b
+}
+
+
+
+
+
+const add = (a, b) => +a === +b
+
+
+
+
+
+function add(a, b){
+	return a + "" === b + "";
+}
