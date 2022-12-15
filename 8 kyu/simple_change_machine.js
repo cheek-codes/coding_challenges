@@ -29,3 +29,92 @@
 // 3. If we were given £1, should     return 20p 20p 20p 20p 20p
 // 4. If we were given 50p, should     return 20p 20p 10p
 // 5. If we were given 20p, should return 10p 10p
+
+
+
+
+
+
+function changeMe(moneyIn){
+    if(moneyIn === "£5"){
+      return "20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p"
+    }
+    else if(moneyIn === "£2"){
+      return "20p 20p 20p 20p 20p 20p 20p 20p 20p 20p"
+    }
+    else if(moneyIn === "£1"){
+      return "20p 20p 20p 20p 20p"
+    }
+    else if(moneyIn === "50p"){
+      return "20p 20p 10p"
+    }
+    else if(moneyIn === "20p"){
+      return "10p 10p"
+    }
+    else{
+      return moneyIn
+    }
+}
+
+
+
+
+
+
+function changeMe(moneyIn){
+    switch(moneyIn){
+        case "£5":
+          return "20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p"
+        case "£2":
+          return "20p 20p 20p 20p 20p 20p 20p 20p 20p 20p"
+        case "£1":
+          return "20p 20p 20p 20p 20p"
+        case "50p":
+          return "20p 20p 10p"
+        case "20p":
+          return "10p 10p"
+        default:
+          return moneyIn
+    }
+}
+
+
+
+
+
+
+function changeMe(moneyIn){
+    switch (moneyIn) {
+      case '£5':
+        var change = Array(25).fill('20p');
+        return change.join(' ');
+      case '£2':
+        var change = Array(10).fill('20p');
+        return change.join(' ');
+      case '£1':
+        var change = Array(5).fill('20p');
+        return change.join(' ');
+      case '50p':
+        return '20p 20p 10p';
+      case '20p':
+        return '10p 10p';
+      default:
+        return moneyIn;
+    }
+}
+
+
+
+
+
+
+function changeMe(moneyIn){
+	switch (moneyIn) {
+  	case '£5': return '20p '.repeat(25).trim()
+  	case '£2': return '20p '.repeat(10).trim()
+  	case '£1': return '20p '.repeat(5).trim()
+  	case '50p': return '20p 20p 10p'
+  	case '20p': return '10p 10p'
+    default: return moneyIn
+  }
+}
