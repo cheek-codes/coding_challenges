@@ -33,6 +33,26 @@
 
 
 function getTheVowels(word) {
+    let vowelSequence = "aeiou"; // correct sequence of vowels
+    let currentVowelIndex = 0; // index of vowel in the sequence currentlly being checked
+    let consecutiveCount = 0; // how many consecutive vowels are in the word
+    
+    //  check every letter of the word against current vowel
+    for (letter of word) {
+      if (letter == vowelSequence[currentVowelIndex]) {
+        consecutiveCount++;
+        currentVowelIndex = (currentVowelIndex + 1) % vowelSequence.length;
+      }
+    }
+    
+    return consecutiveCount;
+}
+
+
+
+
+
+function getTheVowels(word) {
     let vowels = "aeiou"
     let vowelsIndex = 0
     let result = 0
@@ -53,3 +73,96 @@ function getTheVowels(word) {
 
 
 
+
+const getTheVowels = (word, vowels = 'aeiou') =>
+  word
+    .split('')
+    .reduce((count, char) => count + (char === vowels[count % vowels.length]), 0)
+
+
+
+
+
+getTheVowels
+
+    =s=>
+
+        [...s].reduce((r,c)=>r+(c=="aeiou".charAt(r%5)),0)
+
+
+
+
+
+
+function getTheVowels(string) {
+    let arrayOfVowels = ['a','e','i','o','u'];
+    let count = 0;
+    let arrayOfLetters = string.split('');
+        
+        // Iterates through the array of letters
+        for (let i = 0; i < arrayOfLetters.length; i++) {
+            // If "a" is found 
+            if (arrayOfVowels[0] == arrayOfLetters[i]) {    // (really means first index of array)
+                // Increment count by one.
+                count++;
+                // Remove "a" from array of vowels 
+                arrayOfVowels.shift();                      // (really means first index of array)
+            }
+            // If arrayOfVowels is empty
+            if (arrayOfVowels.length == 0) {
+                // Reload the array of vowels
+                arrayOfVowels = ['a','e','i','o','u'];
+            }
+        }
+        return count;
+}
+
+
+
+
+
+function getTheVowels(word) {
+    let st = "aeiou", i = 0, n = 0
+    for(let x of word){
+      if(x != st[i]) continue
+      else{
+        i = (i + 1) % st.length
+        n++
+      }
+    }
+    return n
+}
+
+
+
+
+
+function getTheVowels(word) {
+    let output = 0
+  
+    for (const letter of word) {
+      output += letter === 'aeiou'[output % 5]
+    }
+  
+    return output
+}
+
+
+
+
+
+function getTheVowels(word) {
+    const vowels = 'aeiou'.split('');
+    let count = 0;
+    for (let i = 0, pos = 0;
+         (pos = word.indexOf(vowels[i], pos)) >= 0;
+         i = ++i % vowels.length, ++count)
+      ;
+    return count;
+}
+
+
+
+
+
+const getTheVowels = (string, vowels = 'aeiou') => Array.from(string).reduce((length, character) => length + (character === vowels.charAt(length % vowels.length)), 0);
