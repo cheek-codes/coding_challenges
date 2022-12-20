@@ -12,3 +12,44 @@
 
 // Note:
 // For this kata, the vowels are "a", "e", "i", "o", "u", in that order. "y" is not considered a vowel in this kata.
+
+
+
+
+// Will we be given a string? Will we be given an empty string? Will we be given special characters? Will we be given an array? Will we be given floats? Will we be given integers?
+
+
+
+
+// Return an integer where it counts all the consecutive vowels starting with "a" while skipping vowels that are not in the consecutive order.
+
+
+
+
+// If we were given "agrtertyfikfmroyrntbvsukldkfa", should return 6
+// If we were given "erfaiekjudhyfimngukduo", should return 4
+
+
+
+
+function getTheVowels(word) {
+    let vowels = "aeiou"
+    let vowelsIndex = 0
+    let result = 0
+    for (let i=0; i<word.length; i++){
+      if (word[i] == vowels[vowelsIndex]){
+        result++
+        if(vowelsIndex == 4){
+          vowelsIndex=0
+        }
+        else{
+          vowelsIndex++
+        }
+      }
+    }
+    return result
+}
+
+
+
+
