@@ -33,3 +33,20 @@
 
 
 
+var TempleStrings = function(obj, feature) {
+    return `${obj} are ${feature}`
+}
+
+
+
+
+
+const TempleStrings = (obj, feature) => `${obj} are ${feature}`
+
+
+
+
+
+var TempleStrings = function(obj, feature) {
+    return obj + " are " + feature;
+}
