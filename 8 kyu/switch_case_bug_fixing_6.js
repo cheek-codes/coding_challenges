@@ -3,54 +3,39 @@
 // oh no! timmy's evalObject function doesn't work. He uses Swithc/Cases to evaluate the given properties of an objec, can you fix timmy's function?
 
 /*
-using System;
-
-public class Kata
-{
-  public static double EvalObject(double value1, double value2, char operation)
-  {
-    double result = 0;
-    switch(operation)
-    {
-      case '+': result = value1 + value2;
-      case '-': result = value1 - value2;
-      case '/': result = value1 / value2;
-      case '*': result = value1 * value2;
-      case '%': result = value1 % value2;
-      case '^': result = Math.Pow(value1, value2);
-    }
-    return result;
+function evalObject(value){
+  var result = 0;
+  switch(value.operation){
+    case'+': result = value.a + value.b;
+    case'-': result = value.a - value.b;
+    case'/': result = value.a / value.b;
+    case'*': result = value.a * value.b;
+    case'%': result = value.a % value.b;
+    case'^': result = Math.pow(value.a, value.b);
   }
-}
-*/
+  return result;
+}*/
 
 
 
 
-using System;
-
-public class Kata
-{
-  public static double EvalObject(double value1, double value2, char operation)
-  {
-    double result = 0;
-    switch(operation)
-    {
-      case '+': result = value1 + value2;
-        break;
-      case '-': result = value1 - value2;
-        break;
-      case '/': result = value1 / value2;
-        break;
-      case '*': result = value1 * value2;
-        break;
-      case '%': result = value1 % value2;
-        break;
-      case '^': result = Math.Pow(value1, value2);
-        break;
-    }
-    return result;
+function evalObject(value){
+  var result = 0
+  switch(value.operation){
+    case'+': result = value.a + value.b
+      break
+    case'-': result = value.a - value.b
+      break
+    case'/': result = value.a / value.b
+      break
+    case'*': result = value.a * value.b
+      break
+    case'%': result = value.a % value.b
+      break
+    case'^': result = Math.pow(value.a, value.b)
+      break
   }
+  return result
 }
 
 
@@ -58,3 +43,29 @@ public class Kata
 
 
 
+function evalObject(value){
+  switch(value.operation){
+    case'+': return value.a + value.b;
+    case'-': return value.a - value.b;
+    case'/': return value.a / value.b;
+    case'*': return value.a * value.b;
+    case'%': return value.a % value.b;
+    case'^': return Math.pow(value.a, value.b);
+  }
+}
+
+
+
+
+
+
+const evalObject = value => {
+  return {
+    '+': v => v.a + v.b,
+    '-': v => v.a - v.b,
+    '/': v => v.a / v.b,
+    '*': v => v.a * v.b,
+    '%': v => v.a % v.b,
+    '^': v => v.a ** v.b,
+  }[value.operation](value);
+}
