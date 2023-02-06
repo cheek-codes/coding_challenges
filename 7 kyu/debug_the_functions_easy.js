@@ -30,3 +30,21 @@ return arr.reduce((a, c) => a + c, 0)
 function reverse(str) {
 return str.split("").reverse().join("")
 }
+
+
+
+
+
+
+
+function multi(arr) {
+    return arr.reduce((n, x) => n * x, 1)
+}
+
+function add(arr) {
+return arr.reduce((n, x) => n + x, 0)
+}
+
+function reverse(str) {
+return [...str].reverse().join("")
+}
