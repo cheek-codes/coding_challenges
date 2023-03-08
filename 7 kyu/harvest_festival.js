@@ -53,3 +53,109 @@
 // 2. If we were given plant("$", 4, 2, 30), should return "----$$----$$----$$----$$"
 // 3. If we were given plant("&", 1, 5, 20), should return  "-&&&&&"
 // 4. If we were given plant("^", 3, 3, 35), should return "---------^"
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+
+    if (temp >=20 && temp <=30){
+      let w = "-"
+      let s = w.repeat(water)
+      let f = seed.repeat(fert)
+      let fc = s+f
+      return fc.repeat(water)
+    }
+    else if (temp <20 || temp >30){
+      let w = "-"
+      let s = w.repeat(water*water)
+      return s+seed
+    }
+}
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+    let w = "-"
+    let s = w.repeat(water)
+    let f = seed.repeat(fert)
+    let fc = s+f
+    if (temp >=20 && temp <=30){
+      return fc.repeat(water)
+    }
+    else if (temp <20 || temp >30){
+      let s = w.repeat(water*water)
+      return s+seed
+    }
+}
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+    return 20 <= temp && temp <= 30 ? ("-".repeat(water) + seed.repeat(fert)).repeat(water) : "-".repeat(water * water) + seed
+}
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+    let stem = '-'.repeat(water);
+    let flower = seed.repeat(fert);
+    if (temp < 20 || temp > 30) return stem.repeat(water) + seed;
+    return (stem + flower).repeat(water);
+}
+
+
+
+
+
+
+const plant = (seed, water, fert, temp) => 
+      temp < 20 || temp > 30 ? '-'.repeat(water * water) + seed : 
+      Array(water + 1).join( '-'.repeat(water) + seed.repeat(fert))
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+return temp < 20 || temp > 30 
+? `${"-".repeat(water ** 2)}${seed}`
+: `${"-".repeat(water)}${seed.repeat(fert)}`.repeat(water);
+}
+
+
+
+
+
+
+function plant(seed, water, fert, temp) {
+    if (temp <= 30 && temp >= 20) {
+      return ('-'.repeat(water) + `${seed}`.repeat(fert)).repeat(water)
+    } else {
+      return '-'.repeat(water * water) + seed
+    }
+}
+
+
+
+
+
+
+function plant(seed, water, fert, temp){
+    const tempGood = temp >= 20 && temp <= 30;
+    const flower = tempGood ? seed : '';
+    
+    return ('-'.repeat(water) + flower.repeat(fert)).repeat(water) + (tempGood?'':seed);
+}
