@@ -45,3 +45,136 @@
 // If we were given "..... // .", should return "....."
 // If we were given ". // ..", should return ""
 // If we were given ".. - ..", should return ""
+
+
+
+
+
+
+function dotCalculator(equation) {
+    const [leftDots, operator, rightDots] = equation.split(" ")
+    const leftNum = leftDots.length
+    const rightNum = rightDots.length
+    let result
+  
+    switch (operator) {
+      case "+":
+        result = leftNum + rightNum
+        break
+      case "-":
+        result = leftNum - rightNum
+        break
+      case "*":
+        result = leftNum * rightNum
+        break
+      case "//":
+        result = Math.floor(leftNum / rightNum)
+        break
+    }
+  
+    return result === 0 ? "" : ".".repeat(result)
+}
+  
+  
+  
+  
+  
+  
+const dotCalculator = (equation) => {
+    const operations = {
+      '+' : (a, b) => a + b,
+      '-' : (a, b) => a - b,
+      '*' : (a, b) => a * b,
+      '//': (a, b) => a / b,
+    };
+    const [left, operator, right] = equation.split(' ');
+    return '.'.repeat(operations[operator](left.length, right.length));
+}
+
+
+
+
+
+
+function dotCalculator (equation) {
+	equation = equation.split(' ');
+	
+	let [a, operator, b] = equation;
+	
+	switch (operator) {
+	  case '+':
+	    equation = a.length + b.length;
+	    break;
+	  case '-':
+	    equation = a.length - b.length;
+	    break;
+	  case '*':
+	    equation = a.length * b.length;
+	    break;
+	  case '//':
+	    equation = Math.trunc(a.length / b.length);
+	    break;
+	}
+	a = [];
+	for (let i = equation; i > 0; i--) {
+	  a.push('.');
+	}
+	
+	return a.join('');
+}
+
+
+
+
+
+
+function dotCalculator (equation) {
+    const arr = equation.split(' ');
+    switch ( arr[1] ){
+        case '+':
+        return '.'.repeat( arr[0].length + arr[2].length )
+        case '-':
+        return '.'.repeat( arr[0].length - arr[2].length )
+        case '*':
+        return '.'.repeat( arr[0].length * arr[2].length )
+        default:
+        return '.'.repeat( arr[0].length / arr[2].length )
+    }
+}
+
+
+
+
+
+
+
+const dotCalculator = (equation) => {
+    const result = {
+      '+' : (a, b) => a + b,
+      '-' : (a, b) => a - b,
+      '*' : (a, b) => a * b,
+      '//': (a, b) => a / b,
+    };
+    const [a, action, b] = equation.split(' ');
+    return '.'.repeat( result[action](a.length, b.length) );
+}
+
+
+
+
+
+
+
+function dotCalculator(equation) {
+	const [first, sign, second] = equation.split(' ');
+	switch (sign) {
+		case '+':
+			return '.'.repeat(first.length + second.length);
+		case '-':
+			return '.'.repeat(first.length - second.length);
+		case '*':
+			return '.'.repeat(first.length * second.length);
+		default:
+			return '.'.repeat(first.length / second.length);
+	}
+}
