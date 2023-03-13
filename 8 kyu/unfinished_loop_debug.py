@@ -78,3 +78,19 @@ def create_array(n):
 
 def create_array(n):
     return [i + 1 for i in range(n)]
+
+
+
+
+
+
+from typing import List
+
+def create_array(n: int) -> List[int]:
+    """ Fix the unfinished loop. """
+    result = []
+    ix = 1
+    while ix <= n:
+        result.append(ix)
+        ix += 1
+    return result
