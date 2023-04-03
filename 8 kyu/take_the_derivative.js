@@ -19,3 +19,38 @@
 
 
 
+// Will we be given a string? Will we be given special characters? Will we be given floats? Will we be given integers? Will we be given negative numbers? will we be given positive numbers?
+
+
+
+
+// Return a string where the two given parameters are multiplied and then subtract 1 from the second parameter.
+
+
+
+
+// If we were given derive(7,8), should return "56x^7"
+// If we were given derive(5,9), should return "45x^8"
+
+
+
+
+function derive(c,e) {
+    return `${c*e}x^${e-1}`
+}
+
+
+
+
+
+
+
+let derive = (c,e) => `${c*e}x^${e-1}`
+
+
+
+
+
+
+
+derive = (c,e) => `${c*e}x^${e-1}`
