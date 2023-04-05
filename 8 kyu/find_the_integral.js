@@ -35,3 +35,63 @@
 // If we were given integrate(20,1), should return "10x^2"
 // If we were given integrate(40,3), should return "10x^4"
 // If we were given integrate(90,2), should return "30x^3"
+
+
+
+
+
+
+function integrate(c, e) {
+    let ee = e+1
+    let cc = c/ee
+    return `${cc}x^${ee}`
+}
+
+
+
+
+
+
+const integrate = (coefficient, exponent) => {
+    return coefficient / (exponent + 1) + 'x^' + (exponent + 1);
+}
+
+
+
+
+
+
+integrate = (c, e) => `${c / (e += 1)}x^${e}`;
+
+
+
+
+
+
+
+function integrate(coeff, exp) {
+    return (coeff / (++exp)) + 'x^' + exp;
+}
+
+
+
+
+
+
+const integrate = (coefficient, exponent) => `${coefficient / ++exponent}x^${exponent}`;
+
+
+
+
+
+
+const integrate= (coefficient, exponent) => coefficient/(exponent+1)+"x^"+(exponent+1)
+
+
+
+
+
+
+function integrate(coefficient, exponent) {
+    return `${coefficient/(exponent+1)}x^${exponent+1}`
+}
