@@ -31,3 +31,126 @@
 
 
 
+function calculateSpeed(distance, time) {
+    let distanceMeters
+    if (distance.endsWith("km")) {
+      distanceMeters = parseFloat(distance.slice(0, -2)) * 1000
+    }
+    else {
+      distanceMeters = parseFloat(distance.slice(0, -1))
+    }
+    
+    let timeSeconds
+    if (time.endsWith("min")) {
+      timeSeconds = parseFloat(time.slice(0, -3)) * 60
+    }
+    else {
+      timeSeconds = parseFloat(time.slice(0, -1))
+    }
+    
+    let speedMph = distanceMeters / timeSeconds * 2.23694
+    let speedMphRounded = Math.round(speedMph)
+    
+    return speedMphRounded + "mph"
+}
+
+
+
+
+
+
+function calculateSpeed(distance, time) {
+    let meters = parseInt(distance, 10) * (distance.match(/km$/) ? 1000 : 1);
+    let seconds = parseInt(time, 10) * (time.match(/min$/) ? 60 : 1);
+    return Math.round(meters / seconds * 2.23694) + 'mph';
+}
+
+
+
+
+
+
+function calculateSpeed(d, t) {
+    return `${Math.round(2.23694 * (parseFloat(d) * (/km/.test(d) ? 1000 : 1)) / (parseFloat(t) * (/min/.test(t) ? 60 : 1)))}mph`;
+}
+
+
+
+
+
+
+const RATIOS={min:60, km:1000, mph:2.23694};
+
+const extractStr=s=>{
+  let [a,b] = s.match(/\d+|\w+/g);
+  return +a * (RATIOS[b]||1);
+}
+
+function calculateSpeed(...args) {
+  let [d,t] = args.map(extractStr);
+  return (d/t*RATIOS.mph).toFixed() + 'mph';
+}
+
+
+
+
+
+
+const mps_2_mph = 2.23694
+
+const calculateSpeed = (d,t) => {
+  d = /km/.test(d) ? parseInt(d)*1000 : parseInt(d)
+  t = /min/.test(t) ? parseInt(t)*60 : parseInt(t)
+  return `${Math.round((d/t)*mps_2_mph)}mph`
+}
+
+
+
+
+
+
+function calculateSpeed(distance, time) {
+    d = parseInt(distance);
+    if (distance.endsWith("km")) d *= 1000;
+    
+    t = parseInt(time);
+    if (time.endsWith("min")) t *= 60;
+    
+    return Math.round((d / t) * 2.23694) + "mph";
+}
+
+
+
+
+
+
+function calculateSpeed(distance, time) {
+    var [_, d, ud] = distance.match(/(\d+)(\D+)/);
+    var [_, t, ut] = time.match(/(\d+)(\D+)/);
+  
+    if (ud === 'km')
+      d *= 1000;
+  
+    if (ut === 'min')
+      t *= 60;
+  
+    return Math.round(d / t * 2.23694) + 'mph';
+}
+
+
+
+
+
+
+calculateSpeed=(d,t)=>(((d.indexOf('km')>=0?parseInt(d.replace('km','000')):parseInt(d))/(t.indexOf('min')>=0?parseInt(t)*60:parseInt(t))*2.23694+.5)|0)+"mph"
+
+
+
+
+
+
+function calculateSpeed(distance, time) {
+    const distanceInMeters = distance.includes('km') ? parseInt(distance)*1000 : parseInt(distance)
+    const timeInSeconds = time.includes('s') ? parseInt(time) : parseInt(time)*60
+    return Math.round((distanceInMeters / timeInSeconds) * 2.23694) + 'mph'
+}
