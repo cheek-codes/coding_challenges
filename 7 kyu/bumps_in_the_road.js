@@ -24,3 +24,71 @@
 // If we were given bump("_nnnnnnn_n__n______nn__nn_nnn"), should return "Car Dead"
 // If we were given bump("______n___n_"), should return "Woohoo!"
 // If we were given bump("nnnnnnnnnnnnnnnnnnnnn"), should return "Car Dead"
+
+
+
+
+
+
+function bump(x){
+    let bump = 0
+    for(let i = 0; i < x.length; i ++){
+      if (x[i] === "n"){
+        bump++
+      }
+    }
+    if (bump <= 15){
+      return "Woohoo!"
+    }
+    else{
+      return "Car Dead"
+    }
+}
+
+
+
+
+
+
+const bump=x=>x.split('n').length>16?"Car Dead":"Woohoo!"
+
+
+
+
+
+
+const bump = x => x.split``.filter(e => e === 'n').length > 15 ? 'Car Dead' : 'Woohoo!';
+
+
+
+
+
+
+const bump = x => {
+    let string = "";
+    for (let count = 0; count < x.length; count++) {
+      if (x[count] == 'n') {
+        string += x[count];
+      }
+    }
+    if (string.length > 15) {
+      return 'Car Dead';
+    } else {
+      return 'Woohoo!'
+    }
+};
+
+
+
+
+
+
+const bump = (road, bumps = 0, limit = 15) => {
+	for(let i = 0; i < road.length; i++) {
+		if(road[i] === 'n') {
+			bumps++;
+			if(bumps > limit) return 'Car Dead';
+		}
+	}
+	return 'Woohoo!';
+}
