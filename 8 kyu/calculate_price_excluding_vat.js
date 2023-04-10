@@ -36,3 +36,71 @@
 
 
 
+function excludingVatPrice(price){
+    let og = (price/1.15)
+    if (price === null){
+      return -1
+    }
+    else {
+      return Math.round(og * 100)/100
+    }
+}
+
+
+
+
+
+
+function excludingVatPrice(price){
+    if (price === null){
+      return -1
+    }
+    else {
+      return Math.round((price/1.15) * 100)/100
+    }
+}
+
+
+
+
+
+
+const excludingVatPrice = price => price === null ? -1 : Math.round((price/1.15) * 100)/100
+
+
+
+
+
+
+excludingVatPrice = p => p === null ? -1 : +(p / 1.15).toFixed(2);
+
+
+
+
+
+
+const excludingVatPrice = price =>
+  price === null ? -1 : Math.round(price / 1.15 * 10**2) / 10**2;
+
+
+
+
+
+
+excludingVatPrice = price => price == null? -1: +(price/1.15).toFixed(2) 
+
+
+
+
+
+
+const excludingVatPrice = price => price !== null ? (price / 1.15).toFixed(2) * 100 / 100 : -1;
+
+
+
+
+
+
+function excludingVatPrice(price){
+    return (price == null)? -1 : ((price/115)*100).toFixed(2)*1;
+}
