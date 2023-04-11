@@ -22,3 +22,64 @@
 
 // If we were given zeroFuel(50, 25, 2), should return true
 // If we were given zeroFuel(100, 50, 1), should return false
+
+
+
+
+
+
+function zeroFuel(dtp, mpg, fl){
+    let gas = (mpg*fl)
+    if (gas >= dtp){
+      return true
+    }
+    else{
+      return false
+    }
+}
+
+
+
+
+
+
+const zeroFuel = (dtp, mpg, fl) =>{
+    if ((mpg*fl) >= dtp){
+      return true
+    }
+    else{
+      return false
+    }
+}
+
+
+
+
+
+
+const zeroFuel = (dtp, mpg, fl) => ((mpg*fl) >= dtp) ? true : false
+
+
+
+
+
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return distanceToPump/mpg <= fuelLeft
+}
+
+
+
+
+
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => mpg * fuelLeft >= distanceToPump;
+
+
+
+
+
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return (mpg * fuelLeft) >= distanceToPump;
+  };
