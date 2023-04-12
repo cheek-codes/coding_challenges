@@ -32,3 +32,95 @@
 // If we were given enough(10, 5, 5), should return 0
 // If we were given enough(100, 60, 50), should return 10
 // If we were given enough(20, 5, 5), should return 0
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    let bus = wait - (cap - on)
+    if (bus >=0){
+      return bus
+    }
+    else{
+      return 0
+    }
+}
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    if (wait - (cap - on) >=0){
+      return wait - (cap - on)
+    }
+    else{
+      return 0
+    }
+}
+
+
+
+
+
+
+const enough = (cap, on, wait) => (wait - (cap - on) >=0) ? wait - (cap - on) : 0
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    return Math.max(wait + on - cap, 0);
+}
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    return (on+wait > cap) ? on+wait-cap : 0;
+}
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    if (on + wait < cap){
+    return 0;
+    } else {
+    return (on + wait) - cap;
+    }
+}
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    return cap - wait - on < 0 ? on + wait - cap : 0;
+}
+
+
+
+
+
+
+const enough = (cap, on, wait) => Math.max(0,wait-cap+on);
+
+
+
+
+
+
+function enough(cap, on, wait) {
+    return Math.max(on + wait - cap, 0);
+}
