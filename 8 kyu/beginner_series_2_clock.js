@@ -20,3 +20,23 @@
 
 
 // Will we be given a string? Will we be given any special characters? will we be given a float? Will we be given an integer? Will we be given a negative number? Will we be given a positive number? Will we be given any hours greater than 23? Will we be given any minutes greater than 59? Will we be given any seconds greater than 59?
+
+
+
+
+// Return how many milliseconds there are in the given hours, minutes, and seconds.
+
+
+
+
+// If we were given past(0, 1, 1), should return 61000
+// If we were given past(1, 1, 1), should return 3661000
+// If we were given past(0, 0, 0), should return 0
+// If we were given past(1, 0, 1), should return 3601000
+// If we were given past(1, 0, 0), should return 3600000
+
+
+
+
+
+
