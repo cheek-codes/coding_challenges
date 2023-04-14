@@ -40,3 +40,123 @@
 
 
 
+function past(h, m, s){
+    let sec = s*1000
+    let min = m*60000
+    let hour = h*3.6e+6
+    return sec+min+hour
+}
+
+
+
+
+
+
+function past(h, m, s){
+    return (s*1000)+(m*60000)+(h*3.6e+6)
+}
+
+
+
+
+
+
+function past(h, m, s){
+    return ((h*60*60)+(m*60)+s)*1000
+}
+
+
+
+
+
+const past = (h, m, s) => ((h*60*60)+(m*60)+s)*1000
+
+
+
+
+
+
+function past(h, m, s){
+    return ((h*3600)+(m*60)+s)*1000;
+}
+
+
+
+
+
+
+const past = (h,m,s) => 1000 * (3600 * h + 60 * m + s);
+
+
+
+
+
+
+function past(h, m, s){
+    var hours = h * 60 * 60 * 1000;
+    var minutes = m * 60 * 1000;
+    var seconds = s * 1000;
+    
+    return hours + minutes + seconds;
+}
+
+
+
+
+
+
+function past(h, m, s){
+    var miliseconds = 0;
+    miliseconds = miliseconds + s * 1000;
+    miliseconds = miliseconds + m * 60000;
+    miliseconds = miliseconds + h * 3600000;
+    return miliseconds;
+}
+
+
+
+
+
+
+function past(h, m, s){
+    return h * 3600000 + m * 60000  + s * 1000;
+}
+
+
+
+
+
+
+const past = (h, m, s) => 3600000*h + 60000*m + 1000*s
+
+
+
+
+
+
+past = (h, m, s) => ((h * 60 + m) * 60 + s) * 1000;
+
+
+
+
+
+
+function past(h, m, s){
+    return (((h*60) + m)*60 + s)*1000;
+}
+
+
+
+
+
+
+const past = (h, m, s) => ((h * 60 + m) * 60 + s) * 1000;
+
+
+
+
+
+
+function past(h, m, s){
+    return h * 60 * 60 * 1000 + m * 60 * 1000 + s * 1000;
+}
