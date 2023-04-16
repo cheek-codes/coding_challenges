@@ -33,3 +33,11 @@ def create_array(n):
         res+=[i]
         i+= 1
     return res
+
+
+
+
+
+
+def create_array(n):
+    return [i for i in range(1,n+1)]
