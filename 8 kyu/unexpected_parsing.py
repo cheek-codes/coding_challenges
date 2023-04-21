@@ -94,3 +94,4 @@ get_status = lambda busy: {'status': ['available', 'busy'][busy]}
 
 
 
+get_status=lambda is_busy: {"status": "busy" if is_busy else "available"}
