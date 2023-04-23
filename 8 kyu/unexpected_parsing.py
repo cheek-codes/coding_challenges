@@ -87,3 +87,4 @@ def get_status(is_busy):
 
 
 
+get_status = lambda busy: {'status': ['available', 'busy'][busy]}
