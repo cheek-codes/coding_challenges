@@ -78,3 +78,6 @@ def get_status(is_busy):
 
 
 
+# Using "not" so it will work even if busy is different from 0 and 1
+def get_status(is_busy):
+    return {"status":("busy", "available")[not is_busy]}
