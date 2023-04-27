@@ -66,3 +66,9 @@ def get_status(is_busy):
 
 
 
+def get_status(is_busy):
+    msg = {}
+    msg['status'] = "available"
+    if is_busy:
+        msg['status'] = "busy"
+    return msg
