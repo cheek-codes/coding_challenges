@@ -49,3 +49,6 @@ get_status=lambda b:{'status':['available','busy'][b]}
 
 
 
+def get_status(is_busy):   
+    status = {"status": "busy" if is_busy else "available"}
+    return status
