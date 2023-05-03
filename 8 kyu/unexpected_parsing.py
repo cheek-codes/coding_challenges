@@ -42,3 +42,4 @@ def get_status(is_busy):
 
 
 
+get_status=lambda b:{'status':['available','busy'][b]}
