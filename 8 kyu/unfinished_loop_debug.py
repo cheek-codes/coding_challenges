@@ -112,3 +112,16 @@ def create_array(n):
 
 
 
+def create_array(n):
+    res=[]
+    if n > 0:
+        i = 1
+        while i <= n:
+            res.append(i)
+            i += 1
+    elif n < 0:
+        i = -1
+        while i >= n:
+            res.append(i)
+            i -= 1
+    return res if len(res) > 0 else 0
