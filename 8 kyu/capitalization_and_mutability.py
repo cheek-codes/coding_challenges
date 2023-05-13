@@ -80,3 +80,7 @@ def capitalize_word(word):
 
 
 
+def capitalize_word(word):
+    chars = list(word)
+    chars[0] = chars[0].upper()
+    return ''.join(chars)
