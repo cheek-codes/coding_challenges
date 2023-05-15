@@ -72,3 +72,5 @@ def capitalize_word(word):
 
 
 
+def capitalize_word(word):
+    return word.replace(word[0], word[0].upper())
