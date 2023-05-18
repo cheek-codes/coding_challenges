@@ -58,3 +58,9 @@ def capitalize_word(word):
 def capitalizeWord(word):
     # return ' '.join( w[0].upper()+w[1:] if w[0].isalpha() else w for w in word.split(' ') )
     return word[0].upper()+word[1:] if word[0].isalpha() else word
+
+
+
+
+
+
