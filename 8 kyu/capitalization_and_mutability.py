@@ -30,3 +30,4 @@ def capitalizeWord(s):
 
 
 
+capitalizeWord = str.capitalize
