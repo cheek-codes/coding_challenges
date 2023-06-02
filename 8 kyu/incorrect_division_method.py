@@ -46,3 +46,11 @@ def divide_numbers(x,y):
         return x / y
     except ZeroDivisionError:
         return None 
+    
+
+
+
+
+
+def divide_numbers(x,y):
+    return x/2 * 2/y
