@@ -35,3 +35,14 @@ def divide_numbers(x,y):
 
 # Works for Python 2 and Python 3
 from operator import truediv as divide_numbers
+
+
+
+
+
+
+def divide_numbers(x,y):
+    try:
+        return x / y
+    except ZeroDivisionError:
+        return None 
