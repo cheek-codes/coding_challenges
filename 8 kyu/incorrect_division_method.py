@@ -27,3 +27,11 @@ def divide_numbers(x,y):
 
 def divide_numbers(x,y):
     return float(x) / float(y)
+
+
+
+
+
+
+# Works for Python 2 and Python 3
+from operator import truediv as divide_numbers
