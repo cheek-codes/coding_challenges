@@ -23,3 +23,10 @@ def mystery():
 
 def mystery():
     return {'sanity': 'Hello'}
+
+
+
+
+
+
+mystery = lambda: {'sanity': 'Hello'}
