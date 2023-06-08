@@ -30,3 +30,14 @@ def mystery():
 
 
 mystery = lambda: {'sanity': 'Hello'}
+
+
+
+
+
+
+def mystery():
+    results = {
+    'sanity': 'Hello'}
+    return\
+    results
