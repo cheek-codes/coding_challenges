@@ -107,3 +107,10 @@ def check_alive(health):
         return 0
     else:
         return 1
+    
+
+
+
+
+
+check_alive = lambda h: [True,False][h <= 0]
