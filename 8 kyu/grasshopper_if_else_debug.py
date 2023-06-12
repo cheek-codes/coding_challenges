@@ -96,3 +96,14 @@ def check_alive(health):
 
 def check_alive(health):
     return bool(health>0)
+
+
+
+
+
+
+def check_alive(health):
+    if health <= 0:
+        return 0
+    else:
+        return 1
