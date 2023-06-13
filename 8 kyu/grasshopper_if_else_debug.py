@@ -88,3 +88,11 @@ def check_alive(health):
         return False
     else:
         return True
+    
+
+
+
+
+
+def check_alive(health):
+    return bool(health>0)
