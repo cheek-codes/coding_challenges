@@ -75,3 +75,16 @@ check_alive = (0).__lt__
 
 
 def check_alive(health): return 1 if health > 0 else 0
+
+
+
+
+
+
+def check_alive(health):
+    if health < 0:
+        return False
+    elif health == 0:
+        return False
+    else:
+        return True
