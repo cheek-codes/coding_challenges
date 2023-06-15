@@ -74,3 +74,4 @@ check_alive = (0).__lt__
 
 
 
+def check_alive(health): return 1 if health > 0 else 0
