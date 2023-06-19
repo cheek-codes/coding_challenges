@@ -59,3 +59,5 @@ def check_alive(health: int) -> bool:
 
 
 
+def check_alive(health):
+    return health > 0
