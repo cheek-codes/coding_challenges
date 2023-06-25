@@ -29,3 +29,7 @@
 
 
 
+# E: 1. If we are given -9, should return false
+# E: 2. If we are given 0, should return false
+# E: 3. If we are given 2, should return true
+# E: 4. If we are given 9, should return true
