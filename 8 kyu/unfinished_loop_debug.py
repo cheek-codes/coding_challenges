@@ -49,3 +49,10 @@ def create_array(n):
 
 def create_array(n):
     return list(range(1,n + 1))
+
+
+
+
+
+
+create_array = lambda n: list(range(1,n+1))
