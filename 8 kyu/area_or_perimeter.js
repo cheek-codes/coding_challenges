@@ -39,17 +39,3 @@ const areaOrPerimeter = function(l , w) {
       return l+l+w+w
     }
 }
-
-
-
-
-
-
-const areaOrPerimeter = (l , w) => l === w ? l * w : l+l+w+w
-
-
-
-
-
-
-areaOrPerimeter = (l , w) => l === w ? l * w : l+l+w+w
