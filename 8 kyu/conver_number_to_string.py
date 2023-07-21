@@ -76,3 +76,11 @@ def number_to_string(num):
       num = num // 10
       
   return s
+
+
+
+
+
+
+def number_to_string(num):
+    return f'{num}'
