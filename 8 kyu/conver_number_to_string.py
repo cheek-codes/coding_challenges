@@ -58,3 +58,21 @@ number_to_string = str
 
 def number_to_string(num):
     return "{}".format(num)
+
+
+
+
+
+
+def number_to_string(num):
+  if num < 0: return "-" + number_to_string(-num)
+  if num == 0: return "0"
+  
+  s = ''
+  
+  while num > 0:
+      a = num % 10
+      s = chr(ord('0') + a) + s
+      num = num // 10
+      
+  return s
