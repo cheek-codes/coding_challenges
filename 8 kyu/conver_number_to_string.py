@@ -50,3 +50,11 @@ def number_to_string(num):
 
 
 number_to_string = str
+
+
+
+
+
+
+def number_to_string(num):
+    return "{}".format(num)
