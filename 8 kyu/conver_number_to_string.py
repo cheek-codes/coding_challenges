@@ -49,3 +49,4 @@ def number_to_string(num):
 
 
 
+number_to_string = str
