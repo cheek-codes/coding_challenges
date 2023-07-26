@@ -38,3 +38,8 @@ def number_to_string(num):
 
 
 
+def number_to_string(num):
+    try:
+        return str(num)
+    except:
+        return None
