@@ -115,3 +115,9 @@ def make_negative( number ):
     else:
       return int("-" + str(number))
     
+
+
+
+
+
+def make_negative(n): return n if n < 0 else n - (2*n)
