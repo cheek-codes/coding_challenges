@@ -87,3 +87,11 @@ def make_negative(number):
         return (0 - number)
     else:
         return number
+    
+
+
+
+
+
+def make_negative( number ):
+    return number - number * 2 if number > 0 else number
