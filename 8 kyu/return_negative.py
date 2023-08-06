@@ -76,3 +76,14 @@ def make_negative( number ):
 def make_negative( number ):
     # return negative of number. BUT: negative in = negative out. zero remains zero
     return -abs(number)
+
+
+
+
+
+
+def make_negative(number):
+    if number >= 0:
+        return (0 - number)
+    else:
+        return number
