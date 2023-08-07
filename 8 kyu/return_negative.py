@@ -67,3 +67,12 @@ def make_negative( number ):
 
 def make_negative( number ):
     return (-1) * abs(number)
+
+
+
+
+
+
+def make_negative( number ):
+    # return negative of number. BUT: negative in = negative out. zero remains zero
+    return -abs(number)
