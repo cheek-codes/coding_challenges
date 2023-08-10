@@ -43,3 +43,11 @@ def make_negative( number ):
         return number
     else:
         return -number
+
+
+
+
+
+
+def make_negative( number ):
+    return -abs(number)
