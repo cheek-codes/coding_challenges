@@ -22,3 +22,11 @@
 # R: Return a negative number if the given integer is a positive number.
 # R: Return a negative number if the given integer is a negative number. So no change is needed to this given number
 # R: Return zero(0) if the given integer is a zero(0)
+
+
+
+# E: 1. If we are given makeNegative(1), should return -1
+# E: 2. If we are given makeNegative(-5), should return -5
+# E: 3. If we are given makeNegative(0), should return 0
+# E: 4. If we are given makeNegative(0.12), should return -0.12
+# E: 5. If we are given makeNegative(-0.8), should return -0.8
