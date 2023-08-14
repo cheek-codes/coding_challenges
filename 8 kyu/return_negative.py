@@ -16,3 +16,9 @@
 
 
 # P: Will we be given strings? Will we be given empty strings? Will we be given floats? Will we be given positive integers? Will we be given negative integers?
+
+
+
+# R: Return a negative number if the given integer is a positive number.
+# R: Return a negative number if the given integer is a negative number. So no change is needed to this given number
+# R: Return zero(0) if the given integer is a zero(0)
