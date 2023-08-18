@@ -19,3 +19,11 @@
 
 
 # E: just fix the damn code
+
+
+
+
+
+
+def multiply(a, b):
+    return a * b
