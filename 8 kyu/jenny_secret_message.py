@@ -103,3 +103,14 @@ def greet(name):
 
 def greet(name):
     return "Hello, {name}!".format(name=name.replace("Johnny", "my love")) 
+
+
+
+
+
+
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    else:
+        return "Hello, {}!".format(name)
