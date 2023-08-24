@@ -80,3 +80,10 @@ def greet(name):
 
 def greet(name):
     return "Hello, my love!" if name == "Johnny" else f"Hello, {name}!"
+
+
+
+
+
+
+greet = lambda n: "Hello, {}!".format(n.replace("Johnny","my love"))
