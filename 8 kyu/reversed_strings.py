@@ -30,3 +30,11 @@ def solution(string):
     temp = list(string)
     temp.reverse()
     return ''.join(temp)
+
+
+
+
+
+
+def solution(string):
+    return ''.join(i for i in reversed(string))
