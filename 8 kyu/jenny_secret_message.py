@@ -35,3 +35,14 @@ def greet(name):
         return "Hello, my love!"
     else:
         return "Hello, {name}!".format(name=name)
+    
+
+
+
+
+
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    else:
+        return f"Hello, {name}!"
