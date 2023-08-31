@@ -22,3 +22,11 @@
 
 
 
+# E: 1. If we are given a name of "James", should return "Hello, James!"
+# E: 2. If we are given a name of "Sally", should return "Hello, Sally!"
+# E: 3. If we are given a name of "Chris", should return "Hello, Chris!"
+# E: 4. If we are given a name of "Johnny", should return "Hello, my love!"
+
+
+
+
