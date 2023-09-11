@@ -100,3 +100,9 @@ def create_array(n: int) -> List[int]:
 
 
 
+def create_array(n):
+    res=[]
+    for a in range(1,n):
+      res.append(a)
+    res.append(n)
+    return res
