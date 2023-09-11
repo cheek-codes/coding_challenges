@@ -125,3 +125,24 @@ def create_array(n):
             res.append(i)
             i -= 1
     return res if len(res) > 0 else 0
+
+
+
+
+
+
+def create_array(n):
+    res=[]
+    i=1
+    while i<=n: 
+        res+=[i]
+        return res
+        
+        
+def create_array(n):
+    res = []
+    i = 1
+    while i <= n:
+        res.append(i)
+        i += 1
+    return res
