@@ -106,3 +106,9 @@ def create_array(n):
       res.append(a)
     res.append(n)
     return res
+
+
+
+
+
+
