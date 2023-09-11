@@ -15,3 +15,11 @@ def mystery():
     results = {
     'sanity': 'Hello'}
     return results
+
+
+
+
+
+
+def mystery():
+    return {'sanity': 'Hello'}
