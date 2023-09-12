@@ -20,3 +20,13 @@
 
 def solution(string):
     return string[::-1]
+
+
+
+
+
+
+def solution(string):
+    temp = list(string)
+    temp.reverse()
+    return ''.join(temp)
