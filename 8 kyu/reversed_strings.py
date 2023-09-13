@@ -12,3 +12,11 @@
 
 
 # R: Return a new string that is reversed from the given string parameter
+
+
+
+
+
+
+def solution(string):
+    return string[::-1]
