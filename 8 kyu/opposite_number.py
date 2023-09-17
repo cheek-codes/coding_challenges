@@ -67,3 +67,11 @@ opposite = lambda x: -x
 
 def opposite(number):
   return -1*number
+
+
+
+
+
+
+def opposite(number):
+  return abs(number) if number < 0 else 0 - number
