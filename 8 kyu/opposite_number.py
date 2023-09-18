@@ -59,3 +59,11 @@ from operator import neg as opposite
 
 
 opposite = lambda x: -x
+
+
+
+
+
+
+def opposite(number):
+  return -1*number
