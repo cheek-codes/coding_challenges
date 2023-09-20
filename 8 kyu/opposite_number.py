@@ -45,3 +45,10 @@ def opposite(number):
 
 def opposite(number):
     return number - number * 2 
+
+
+
+
+
+
+from operator import neg as opposite
