@@ -37,3 +37,11 @@ def opposite(number):
 
 def opposite(number):
     return -number
+
+
+
+
+
+
+def opposite(number):
+    return number - number * 2 
