@@ -29,3 +29,11 @@
 
 def opposite(number):
     return number * -1
+
+
+
+
+
+
+def opposite(number):
+    return -number
