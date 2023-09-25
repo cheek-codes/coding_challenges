@@ -7,3 +7,7 @@
 
 
 
+# P: Will we be given special characers? Will we be given numbers such as integers and floats? Will we be given an empty string? Will we only be given strings? Will we have to return "hello world!" in lower case? Will we only have to return "hello world!"?
+
+
+
