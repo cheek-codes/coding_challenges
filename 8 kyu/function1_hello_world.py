@@ -15,3 +15,6 @@
 
 
 
+# E: 1. If we are to call this function, should return "hello world!"
+# E: 2. If we are to call this function, should not return "Hello World!"
+# E: 3. If we are to call this function, should not return "heLLo WoRlD!"
