@@ -43,3 +43,13 @@ a = "code"
 b = "wa.rs"
 name=a+b
 print(name)
+
+
+
+
+
+
+#Using the string join method to merge a list and convert it to a string
+name = ["code","wa.rs"]
+name = ''.join(name)
+print(name)
