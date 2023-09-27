@@ -32,3 +32,14 @@ name = "codewa.rs"
 a = "code"
 b = "wa.rs"
 name = "{}{}".format(a,b)
+
+
+
+
+
+
+#This code should store "codewa.rs"
+a = "code"
+b = "wa.rs"
+name=a+b
+print(name)
