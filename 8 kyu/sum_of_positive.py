@@ -32,3 +32,11 @@ def positive_sum(arr):
         if num > 0:
             total_sum += num
     return total_sum
+
+
+
+
+
+
+def positive_sum(arr):
+    return sum(x for x in arr if x > 0)
