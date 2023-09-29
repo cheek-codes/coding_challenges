@@ -20,3 +20,11 @@
 # E: 2. If we are given a number parameter of 5, and a string parameter of "Hello", should return "HelloHelloHelloHelloHello"
 # E: 3. If we are given a number parameter of 2, and a string parameter of "9", should return "99"
 # E: 4. If we are given a number parameter of 8, and a string parameter of "fuCK", should return "fuCKfuCKfuCKfuCKfuCKfuCKfuCKfuCK"
+
+
+
+
+
+
+def repeat_str(repeat, string):
+    return string * repeat
