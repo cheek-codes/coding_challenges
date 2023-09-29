@@ -12,3 +12,11 @@
 
 
 
+# R: Return a new string where a parameter of a string is repeated as many times as the given parameter of a number.
+
+
+
+# E: 1. If we are given a number parameter of 6, and a string parameter of "I", should return "IIIIII"
+# E: 2. If we are given a number parameter of 5, and a string parameter of "Hello", should return "HelloHelloHelloHelloHello"
+# E: 3. If we are given a number parameter of 2, and a string parameter of "9", should return "99"
+# E: 4. If we are given a number parameter of 8, and a string parameter of "fuCK", should return "fuCKfuCKfuCKfuCKfuCKfuCKfuCKfuCK"
