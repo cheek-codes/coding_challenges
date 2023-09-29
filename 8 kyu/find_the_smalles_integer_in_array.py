@@ -23,3 +23,13 @@
 # E: 2. If we are given an array of [34, -345, -1, 100], should return -345
 # E: 3. If we are given an array of [78, 56, 232, 412, 228], should return 56
 # E: 4. If we are given an array of [1, -56, 232, 12, 8], should return -56
+
+
+
+
+
+
+def find_smallest_int(arr):
+    arr.sort()
+    num = arr.pop(0)
+    return num
