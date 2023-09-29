@@ -39,3 +39,10 @@ def repeat_str(repeat, string):
     for i in range(repeat):
         solution += string
     return solution
+
+
+
+
+
+
+repeat_str = lambda r, s: s * r
