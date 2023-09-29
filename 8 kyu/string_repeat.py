@@ -46,3 +46,18 @@ def repeat_str(repeat, string):
 
 
 repeat_str = lambda r, s: s * r
+
+
+
+
+
+
+from operator import mul as repeat_str
+
+
+
+
+
+
+def repeat_str(repeat, string):
+    return "".join([string]*repeat)
