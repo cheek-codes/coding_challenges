@@ -61,3 +61,14 @@ from operator import mul as repeat_str
 
 def repeat_str(repeat, string):
     return "".join([string]*repeat)
+
+
+
+
+
+
+def repeat_str(repeat, string):
+    hill = []
+    for k in range(repeat):
+        hill.append(string)
+    return ''.join(hill)
