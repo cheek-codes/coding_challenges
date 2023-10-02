@@ -40,3 +40,22 @@
 # E: 4. If we are given a body of "fox", and tail of "o", should return false
 # E: 5. If we are given a body of "rhino", and tail of "x", should return false
 # E: 6. If we are given a body of "meerkat", and tail of "o", should return false
+
+
+
+
+
+
+def correct_tail(body, tail):
+    if body[-1] == tail:
+        return True
+    else:
+        return False
+    
+
+
+
+
+
+def correct_tail(body, tail):
+    return body.endswith(tail)
