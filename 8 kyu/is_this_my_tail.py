@@ -87,3 +87,25 @@ def correct_tail(body, tail):
 
 def correct_tail(body, tail):
     return True if body[-1]==tail else False
+
+
+
+
+
+
+correct_tail = str.endswith
+
+
+
+
+
+
+correct_tail = lambda a,t: a[-1]==t
+
+
+
+
+
+
+def correct_tail(body, tail):
+    return body[-1:] == tail
