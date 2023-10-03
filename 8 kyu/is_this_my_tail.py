@@ -109,3 +109,28 @@ correct_tail = lambda a,t: a[-1]==t
 
 def correct_tail(body, tail):
     return body[-1:] == tail
+
+
+
+
+
+
+def correct_tail(body, tail):
+    b = body[-1:].lower() 
+    c = tail[0].lower()
+    if b == c:
+        return True
+    else: 
+        return False
+    
+
+
+
+
+
+def correct_tail(body, tail):
+    n = len(body)
+    if body[n-1] == tail[0]:
+        return True
+    else:
+        return False
