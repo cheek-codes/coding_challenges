@@ -27,3 +27,11 @@
 # E: 2. If we are given [-1, -2, -3], [-4, -5, -6], should return -21
 # E: 3. If we are given [0, 0, 0], [4, 5, 6], should return 15
 # E: 4. If we are given [100, 200, 300], [400, 500, 600], should return 2100
+
+
+
+
+
+
+def array_plus_array(arr1,arr2):
+    return sum(arr1)+sum(arr2)
