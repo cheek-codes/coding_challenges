@@ -125,3 +125,7 @@ def convertToCelsius (temp):
 
 
 
+def weather_info(temp):
+    temp = (temp - 32) * (5 / 9)
+    above = " above" if temp >= 0 else ""
+    return f"{temp} is{above} freezing temperature"
