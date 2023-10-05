@@ -104,4 +104,12 @@ def weather_info (temp):
 
 
 
-    
+def weather_info(fahrenheit):
+    celsius = 5.0 * (fahrenheit - 32) / 9
+    return "{} is {}freezing temperature".format(celsius, "above " if celsius >= 0 else "")
+
+
+
+
+
+
