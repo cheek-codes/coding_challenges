@@ -20,3 +20,15 @@
 
 
 # P: Will we be given empty strings? Will we be given strings? Will we be given special characters? Will we be given arrays? Will we be given floats? Will we be given integers? Will we be given negative numbers? Will we be given positive number?
+
+
+
+
+
+
+def rain_amount(rain_amount):
+    if rain_amount >= 40:
+        return "Your plant has had more than enough water for today!"
+    else:
+        return f"You need to give your plant {40-rain_amount}mm of water"
+         
