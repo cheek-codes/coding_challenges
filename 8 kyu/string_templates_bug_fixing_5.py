@@ -27,3 +27,13 @@ function buildString(...template){
 
 
 
+def build_string(*args):
+    return f"I like {', '.join(args)}!"
+
+
+
+
+
+
+def build_string(*args):
+    return "I like {0}!".format(", ".join(args))
