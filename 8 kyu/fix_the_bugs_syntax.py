@@ -21,3 +21,50 @@
     if type(a) or type(b) == "number": return False
     else:
         return a % b ++ b % a """
+
+
+
+
+
+
+def my_first_kata(a,b):
+    if type(a)!= int or type(b) != int: 
+        return False
+    else:
+        return ((a % b) + (b % a))
+    
+
+
+
+
+
+def my_first_kata(a, b):
+    try:
+        return a % b + b % a
+    except (TypeError, ZeroDivisionError):
+        return False
+    
+
+
+
+
+
+def my_first_kata(a,b):
+    if type(a) == int and type(b) == int: return a%b + b%a
+    return False
+
+
+
+
+
+
+def my_first_kata(a,b):
+    return a % b + b % a if type(a) is int and type(b) is int else False
+
+
+
+
+
+
+def my_first_kata(a,b):
+    return type(a) == type(b) == int and a % b + b % a
