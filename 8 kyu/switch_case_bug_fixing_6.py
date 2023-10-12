@@ -25,3 +25,45 @@
 
 
 
+def eval_object(v):
+    if v["operation"] == "+":
+        return v["a"] + v["b"]
+    elif v["operation"] == "-":
+        return v["a"] - v["b"]
+    elif v["operation"] == "/":
+        return v["a"] / v["b"]
+    elif v["operation"] == "*":
+        return v["a"] * v["b"]
+    elif v["operation"] == "%":
+        return v["a"] % v["b"]
+    elif v["operation"] == "**":
+        return v["a"] ** v["b"]
+    
+
+
+
+
+
+def eval_object(v):
+    return {"+": v['a']+v['b'],
+            "-": v['a']-v['b'],
+            "/": v['a']/v['b'],
+            "*": v['a']*v['b'],
+            "%": v['a']%v['b'],
+           "**": v['a']**v['b'], }.get(v['operation'])
+
+
+
+
+
+
+def eval_object(v):
+    return eval("{a}{operation}{b}".format(**v))
+
+
+
+
+
+
+def eval_object(v):
+    return eval(str(v['a'])+v['operation']+str(v['b']))
