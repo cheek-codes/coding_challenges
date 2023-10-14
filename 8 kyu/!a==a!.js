@@ -24,35 +24,6 @@
 
 
 
-const a = [];
-function assertEquals(a){
-
-  if(a == false){
-  return true;
-  }; 
-  if(!a == false){
-  return true;
-  }; 
-  if(a == false) {
-  return true;
-  }; 
-}
-
-
-
-const a = []
-
-
-
-const a = [null]
-
-
-
-const a = '0'
-
-
-
-const a = new Boolean()
 
 
 
