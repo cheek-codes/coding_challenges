@@ -37,35 +37,3 @@ function evalObject(value){
   }
   return result
 }
-
-
-
-
-
-
-function evalObject(value){
-  switch(value.operation){
-    case'+': return value.a + value.b;
-    case'-': return value.a - value.b;
-    case'/': return value.a / value.b;
-    case'*': return value.a * value.b;
-    case'%': return value.a % value.b;
-    case'^': return Math.pow(value.a, value.b);
-  }
-}
-
-
-
-
-
-
-const evalObject = value => {
-  return {
-    '+': v => v.a + v.b,
-    '-': v => v.a - v.b,
-    '/': v => v.a / v.b,
-    '*': v => v.a * v.b,
-    '%': v => v.a % v.b,
-    '^': v => v.a ** v.b,
-  }[value.operation](value);
-}
