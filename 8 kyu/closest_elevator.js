@@ -68,34 +68,3 @@ function elevator(left, right, call){
       return "right"
     }
 }
-
-
-
-
-
-const elevator = (left, right, call) => Math.abs(call-left) < Math.abs (call-right) ? "left" : "right"
-
-
-
-
-function elevator(left, right, call) {
-    return Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right';
-}
-
-
-
-
-function elevator(left, right, call){
-    if(left === 0 && right === 1 && call === 0 ||
-       left === 0 && right === 2 && call === 0 ||
-       left === 1 && right === 0 && call === 1 ||
-       left === 1 && right === 0 && call === 2 ||
-       left === 1 && right === 2 && call === 0 ||
-       left === 1 && right === 2 && call === 1 ||
-       left === 2 && right === 0 && call === 2 ||
-       left === 2 && right === 1 && call === 2) {
-      return 'left';
-    } else {
-      return 'right';
-    }
-  }
