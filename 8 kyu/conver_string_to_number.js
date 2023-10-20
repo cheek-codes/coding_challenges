@@ -24,39 +24,3 @@
 var stringToNumber = function(str){
     return Number(str);
 }
-
-
-
-var stringToNumber = function(str){
-    return parseInt(str);
-}
-
-
-
-const stringToNumber = str => Number(str)
-
-
-
-var stringToNumber = function(str){
-    return +str;
-}
-
-
-
-var stringToNumber = Number;
-
-
-
-const stringToNumber = s => parseInt(s);
-
-
-
-const stringToNumber = (str) => +str
-
-
-
-const stringToNumber = Number
-
-
-
-stringToNumber = parseInt;
