@@ -19,21 +19,3 @@
 function contamination(text, char){
     return char.repeat(text.length)
 }
-
-
-
-function contamination(text, char){
-    return text.replace(/./g, char);
-}
-
-
-
-const contamination = (text, char) => text.replace(/./g, char);
-
-
-
-var contamination = (text, char) => [...text].map(e => e = char).join('')
-
-
-
-const contamination = (s,v) => s.replace(/./g,v);
