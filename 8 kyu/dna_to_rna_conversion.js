@@ -28,4 +28,4 @@
 function DNAtoRNA(dna){
     // using .replace() method. replace all global "T" with an "U"
     return dna.replace(/T/g, 'U');
-}
+} 
