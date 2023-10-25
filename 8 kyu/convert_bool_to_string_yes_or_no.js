@@ -30,4 +30,4 @@ function boolToWord(bool){
     else{
         return "No"
     }
-}
+} 
