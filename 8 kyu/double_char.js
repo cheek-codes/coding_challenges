@@ -36,33 +36,3 @@ function doubleChar(str) {
     }
     return dbl
 }
-
-
-
-
-
-const doubleChar = (str) => str.split("").map(c => c + c).join("");
-
-
-
-
-
-function doubleChar(str) {
-    return str.replace(/(.)/g, "$1$1")
-}
-
-
-
-
-
-function doubleChar(str) {
-    return str.split("").map(function (c) {
-      return c + c;
-    }).join("");
-}
-
-
-
-
-
-const doubleChar = str => str.split('').map(v=>v+v).join('')
